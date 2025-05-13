@@ -1,0 +1,103 @@
+---
+import MailIcon from './icons/MailIcon.astro';
+---
+
+<header>
+    <nav id="navbar">
+        <div class="navbar-left-section">
+            <img src="/src/assets/branding/type_color.png" alt="Type Of Legal Logo" srcset="">
+            <div class="navbar-buttons">
+                <a class="active" href="/" class="navbar-button">INICIO</a>
+                <a href="/about" class="navbar-button">NOSOTROS</a>
+                <a href="/blog" class="navbar-button">BLOG</a>
+                <a href="/contact" class="navbar-button">CONTACTO</a>
+            </div>
+        </div>
+        <div class="navbar-right-section">
+            <button><MailIcon/>info@typeoflegal.com</button>
+        </div>
+    </nav>
+</header>
+
+
+<style>
+    header{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.548);
+        backdrop-filter: blur(10px);
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #e8f0eb;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1300px;
+        padding: 20px;
+    }
+
+    .navbar-left-section{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        img{
+            width: 250px;
+        }
+    }
+
+    .navbar-right-section{
+        display: flex;
+        align-items: center;
+        button{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #e8f0eb;
+            border: none;
+            color: #4d8b6c;
+            padding: 10px 20px;
+            border-radius: 0.5rem;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover{
+            background-color: #d5e3db;
+        }
+    }
+
+    .navbar-buttons{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        a {
+            border-radius: 0.5rem;
+            text-decoration: none;
+            color: #2e3c2e;
+            padding: 10px 20px;
+            text-align: center;
+            vertical-align: text-bottom;
+            font-weight: 600;
+            transition: all 0.3s ease-in-out;
+            
+        }
+
+        a:hover {
+            color: #4d8b6c;
+        }
+
+        .active{
+            background-color: #4d8b6c;
+            color: white;
+        }
+
+        .active:hover{
+            background-color: #3d6e55;
+            color: white;
+        }
+    }
+</style>

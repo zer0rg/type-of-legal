@@ -1,0 +1,135 @@
+<section id="banner">
+    <div class="bg-image"></div>
+    <div class="content-overlay">
+        <div class="content-wrapper">
+            <div class="content">
+                <h1>Abogados especialistas en nuevas tecnologías</h1>
+                <p>Somos abogados especialistas en nuevas tecnologías, protección de datos, comercio electrónico, marketing y reputación online</p>
+                <div class="banner-buttons">
+                    <button class="style1">Solicitar una consulta</button>
+                    <button class="style2">Nuestros servicios</button>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    <div class="banner-image"></div>
+</section>
+
+<style>
+
+    #banner{
+        .bg-image{
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+              /* Fondo degradado base: de #f0f5f0 a white */
+
+  /* Imagen encima */
+  background-image: url('/src/assets/images/person-cafe-black-and-white-white-socializing-restaurant-134-pxhere.com.jpg');
+  background-position: right center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: normal;
+
+  /* Difuminado de la imagen hacia la izquierda */
+  mask-image: linear-gradient(to left, black 10%, transparent 50%);
+  -webkit-mask-image: linear-gradient(to left, black 10%, transparent 50%);
+        }
+
+        position: relative;
+        width: 100%;
+        min-height: 60dvh;
+
+        .content-overlay{
+            background: linear-gradient(to right, #f0f5f0de, rgba(255, 255, 255, 0.589));
+
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+
+            .content-wrapper{
+                display: flex;
+                align-items: center;
+                position: relative;
+                width: 100%;
+                padding: 0px 20px;
+                max-width: 1300px;
+                box-sizing: border-box;
+
+                .content{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    max-width: 45%;
+                    padding: 20px;
+                    gap: 15px;
+
+                    h1{
+                        font-size: 60px;
+                        margin: 0;
+                    }
+
+                    p{
+                        font-weight: bold;
+                        color: #5a6b5a;
+                        font-size: 20px;
+                    }
+                    .banner-buttons{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+
+                        button{
+                        border-radius: 0.5rem;
+                        text-decoration: none;
+                        color: #2e3c2e;
+                        padding: 12px 22px;
+                        text-align: center;
+                        vertical-align: text-bottom;
+                        font-weight: 600;
+                        transition: all 0.3s ease-in-out;
+                        outline: none;
+                        border: 0;
+                        cursor: pointer;
+                        }
+
+                        .style1{
+                            background-color: #4d8b6c;
+                            color: white;
+
+                            
+                         }
+
+                        .style1:hover{
+                            background-color: #3d6e55;
+                            color: white;
+                        }
+
+                        .style2{
+                            border: 1px solid #4d8b6c;
+                            background-color: white;
+                            color: #4d8b6c;
+                        }
+
+                        .style2:hover{
+                            background-color: #d5e3db
+                        }
+                    }
+                }
+            }
+
+            h1{
+            animation: slide-up 1s ease-out;
+            font-size: 2.25rem;        /* text-4xl */
+            font-weight: 700;          /* font-bold */
+            letter-spacing: -0.015em;  /* tracking-tight */
+            color: #2e3c2e;
+            }
+        }
+    }
+</style>

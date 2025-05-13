@@ -1,11 +1,41 @@
 ---
-import Welcome from '../components/Welcome.astro';
+import Navbar from '../components/Navbar.astro';
+import Banner from '../components/Banner.astro';
 import Layout from '../layouts/Layout.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Abogados - Type Of Legal">
+	<Navbar />
+	<Banner />
+
 </Layout>
+<style is:global>
+	  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 10% 3.9%;
+    --primary: 142 34% 42%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 140 15% 95%;
+    --secondary-foreground: 220 10% 3.9%;
+    --muted: 140 15% 95%;
+    --muted-foreground: 220 5% 40%;
+    --accent: 140 15% 95%;
+    --accent-foreground: 220 10% 3.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 125 15% 92%;
+    --input: 125 15% 92%;
+    --ring: 142 34% 42%;
+    --radius: 0.5rem;
+  }
+* {
+	font-family: sans-serif;
+}
+</style>
