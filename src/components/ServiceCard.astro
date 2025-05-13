@@ -1,0 +1,115 @@
+---
+import ShieldIcon from './icons/ShieldIcon.astro';
+
+interface Props {
+    title: string;
+    description: string;
+}
+
+const { title, description } = Astro.props;
+
+---
+<div class="service-card">
+    <div class="icon-wrapper">
+        <slot name="icon" />
+    </div>
+    <h3>{title}</h3>
+    <p>{description}</p>
+    <a href="#" class="service-card-button">Saber más</a>
+    <div class="underline"></div>
+</div>
+
+
+<style>
+
+    @keyframes appear {
+        from {
+            opacity: 0.1;
+            scale: 0.8;
+        }
+        to {
+            opacity: 1;
+            scale: 1;
+        }
+
+    }
+    .service-card{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        width: calc(33.33% - 20px);
+        border: 1px solid #e8f0eb;
+        padding: 20px;;
+        box-sizing: border-box;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+
+
+        .icon-wrapper{
+            background-color: #e8f0eb;
+            color: #4d8b6c;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 99999px;
+        }
+
+        h3{
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+            color: #2e3c2e;
+        }
+
+        p {
+            margin: 0;
+            font-size: 16px;
+            color: #5a6b5a;
+        }
+
+        a{
+            color: #4d8b6c;
+            text-decoration: none;
+        }
+
+       
+     .underline{
+         position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0.25rem; /* h-1 */
+  width: 0;
+  background-color: #4d8b6c;
+  transition: all 0.3s;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+     }
+
+   
+      
+        }
+
+        .service-card:hover{
+            transform: translateY(-10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-card:hover .underline{
+            width: 100%;
+        }
+
+      
+        
+
+     
+       
+
+    
+</style>
