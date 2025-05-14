@@ -188,7 +188,6 @@ h2{
 		flex-direction: column;
 		flex-wrap: wrap;
 		position: relative;
-		min-height: 60dvh;
 		.bg-image{
             position: absolute;
             content: "";
@@ -199,7 +198,7 @@ h2{
   /* Imagen encima */
   background-image: url('/src/assets/images/lorene-farrugia-JpmC-tAHiVA-unsplash.jpg');
   background-position: right center;
-  background-size: 50%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: normal;
 
@@ -208,10 +207,9 @@ h2{
   -webkit-mask-image: linear-gradient(to left, black 10%, transparent 50%);
         }
 
-		    .content-overlay{
+		.content-overlay{
+            padding: 100px 0px;
             background: linear-gradient(to right, #f0f5f0de, rgba(255, 255, 255, 0.589));
-
-            position: absolute;
             display: flex;
             justify-content: center;
             width: 100%;
@@ -229,14 +227,18 @@ h2{
                 .content{
                     display: flex;
                     flex-direction: column;
-                    max-width: 60%;
+                    justify-content: center;
+                    max-width: 45%;
                     padding: 20px;
                     gap: 15px;
 					animation: appear linear;
         animation-timeline: view();
         animation-range: entry 0;
 
-               
+                    h1{
+                        font-size: 60px;
+                        margin: 0;
+                    }
 
                     p{
                         font-weight: bold;
@@ -340,14 +342,78 @@ h2{
 				color: white;
 				font-weight: bold;
 			margin-bottom: 10px;
+			text-align: center;
 		}
 
 	h2{
 		margin-top: 50px;
 		color: white;
+		text-align: center;
 
 	}
 }
+
+    /* Media Queries */
+    @media (max-width: 1400px) {
+    #about .bg-image{
+        mask-image: linear-gradient(to left, black 20%, transparent 45%);
+        -webkit-mask-image: linear-gradient(to left, black 20%, transparent 45%);
+    }
+
+}
+
+    @media (max-width: 1300px) {
+		.contact-header{
+			padding: 0px 30px !important;
+		}
+    }
+
+    @media (max-width: 900px) {
+        #about .about-wrapper .bg-image{
+            mask-image: linear-gradient(to left, black 0%, transparent 60%);
+            -webkit-mask-image: linear-gradient(to left, black 0% transparent 60%);
+        }
+
+        #about .about-wrapper .content-overlay .content-wrapper .content{
+            max-width: 60%;
+        }
+    }
+
+
+
+    @media (max-width: 770px) {
+        #about .about-wrapper .bg-image{
+            mask-image: linear-gradient(to left, black -400px, transparent 40%);
+            -webkit-mask-image: linear-gradient(to left, black -400px, transparent 40%);
+        }
+
+        #about .about-wrapper .content-overlay .content-wrapper .content{
+            max-width: 100%;
+        }
+
+        .banner-buttons{
+            flex-direction: column;
+            button{
+                width: 100%;
+            }
+        }
+
+    }
+
+    @media (max-width: 500px) {
+        #about .about-wrapper .bg-image{
+            mask-image: linear-gradient(to left, black -400px, transparent 40%);
+            -webkit-mask-image: linear-gradient(to left, black -400px, transparent 40%);
+        }
+
+        #about .about-wrapper .content-overlay .content-wrapper .content{
+            max-width: 100%;
+        }
+
+  
+
+      
+    }
 
 @media (max-width: 700px) {
 	h2{
