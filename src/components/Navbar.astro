@@ -1,5 +1,6 @@
 ---
 import MailIcon from './icons/MailIcon.astro';
+import MenuIcon from './icons/MenuIcon.astro';
 ---
 
 <header>
@@ -17,7 +18,9 @@ import MailIcon from './icons/MailIcon.astro';
             </div>
         </div>
         <div class="navbar-right-section">
-            <button><MailIcon/>info@typeoflegal.com</button>
+            <button class="mail-button"><MailIcon/>info@typeoflegal.com</button>
+            <button class="menu-button"><MenuIcon/></button>
+
         </div>
     </nav>
     <script is:inline>
@@ -81,6 +84,7 @@ import MailIcon from './icons/MailIcon.astro';
     .navbar-right-section{
         display: flex;
         align-items: center;
+        gap: 10px;
         button{
             display: flex;
             align-items: center;
@@ -94,6 +98,13 @@ import MailIcon from './icons/MailIcon.astro';
             cursor: pointer;
             font-weight: bold;
         }
+
+        .menu-button{
+            display: none;
+            background-color: transparent;
+
+        }
+
 
         button:hover{
             background-color: #d5e3db;
@@ -132,4 +143,21 @@ import MailIcon from './icons/MailIcon.astro';
             background-color: #4d8b6c;
             color: white;
         }
+
+    @media (max-width: 1130px) {
+        #navbar .navbar-left-section .navbar-buttons{
+            display: none ;
+        }
+        .menu-button{
+            display: flex !important;
+        }
+
+    }
+
+    @media (max-width: 590px) {
+    #navbar .navbar-right-section .mail-button{
+        display: none !important; 
+        }
+    
+    }
 </style>

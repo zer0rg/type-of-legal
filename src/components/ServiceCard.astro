@@ -108,7 +108,20 @@ const { title, description } = Astro.props;
       
         
 
-     
+     @media (max-width: 1180px) {
+        .service-card{
+            width: calc(50% - 20px);
+        }
+
+    @media (max-width: 768px) {
+        .service-card{
+            width: calc(100%);
+        }
+
+        h2{
+            text-align: center !important;
+        }
+    }
        
 
     
