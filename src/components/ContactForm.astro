@@ -1,0 +1,124 @@
+
+
+<form id="contactForm" class="contact-form">
+    <div class="form-row">
+        <div class="form-col">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+        </div>
+        <div class="form-col">
+            <div class="form-group">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
+            </div>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="telefono">Teléfono (opcional)</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="+34 XXX XXX XXX">
+    </div>
+    
+    <div class="form-group">
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" name="asunto" placeholder="¿En qué podemos ayudarte?" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Describe tu consulta en detalle..." required></textarea>
+    </div>
+    
+    <p>Al pulsar en “enviar” aceptas nuestra Política de Privacidad (i) para tratar tus datos con la finalidad de tramitar las consultas que puedas plantearnos.</p>
+    <div class="form-group">
+        <button type="submit" id="submitButton">Enviar mensaje</button>
+    </div>
+</form>
+
+
+<style>
+    .contact-form{
+        width: 100%;
+        max-width: 800px;
+        background-color: #85858596;
+        backdrop-filter: blur(15px);
+        box-shadow:  0 4px 10px rgba(0, 0, 0, 0.1);
+        margin: 50px 0px;
+        border-radius: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form-row{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+     
+        .form-col{
+            width: 50%;
+        }
+    }
+
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        input, textarea {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #f0f5f0de;
+            box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+        }
+
+        textarea{
+            max-width: 100%;
+            min-height: 180px;
+            resize: vertical;
+        }
+
+    
+
+        button{
+            border-radius: 0.5rem;
+                        text-decoration: none;
+                        color: #2e3c2e;
+                        padding: 12px 22px;
+                        text-align: center;
+                        vertical-align: text-bottom;
+                        font-weight: 600;
+                        transition: all 0.3s ease-in-out;
+                        outline: none;
+                        border: 0;
+                        cursor: pointer;
+                        background-color: #4d8b6c;
+                        color: white;
+        }
+    }
+
+    label, p{
+            margin: 0;
+				font-size: 16px;
+				color: white;
+				font-weight: bold;
+        }
+</style>

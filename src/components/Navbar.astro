@@ -7,22 +7,50 @@ import MailIcon from './icons/MailIcon.astro';
         <div class="navbar-left-section">
             <img src="https://typeoflegal.com/wp-content/uploads/2023/06/TypeofLegalAbogados.webp" alt="Type Of Legal Logo" srcset="">
             <div class="navbar-buttons">
-                <a class="active" href="/" class="navbar-button">INICIO</a>
-                <a href="/about" class="navbar-button">NOSOTROS</a>
-                <a href="/blog" class="navbar-button">BLOG</a>
-                <a href="/contact" class="navbar-button">CONTACTO</a>
+                <a href="#banner" class="navbar-button">INICIO</a>
+            <a href="#services" class="navbar-button">SERVICIOS</a>
+            <a href="#about" class="navbar-button">NOSOTROS</a>
+            <a href="#contact" class="navbar-button">CONTACTO</a>
+            <a href="/blog" class="navbar-button">BLOG</a>
+
+
             </div>
         </div>
         <div class="navbar-right-section">
             <button><MailIcon/>info@typeoflegal.com</button>
         </div>
     </nav>
+    <script is:inline>
+        document.addEventListener("DOMContentLoaded", () => {
+          const sections = document.querySelectorAll("section[id]");
+          const navLinks = document.querySelectorAll("#navbar a[href^='#']");
+    
+          const observer = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                  const id = entry.target.id;
+                  navLinks.forEach((link) => {
+                    link.classList.toggle("active", link.getAttribute("href") === `#${id}`);
+                  });
+                }
+              });
+            },
+            {
+              rootMargin: "0px 0px -60% 0px",
+              threshold: 0.25,
+            }
+          );
+    
+          sections.forEach((section) => observer.observe(section));
+        });
+      </script>
 </header>
 
 
 <style>
     header{
-        position: sticky;
+        position: fixed;
         z-index: 999;
         top: 0;
         width: 100%;
@@ -38,6 +66,7 @@ import MailIcon from './icons/MailIcon.astro';
         width: 100%;
         max-width: 1300px;
         padding: 20px;
+
     }
 
     .navbar-left-section{
@@ -91,14 +120,16 @@ import MailIcon from './icons/MailIcon.astro';
             color: #4d8b6c;
         }
 
-        .active{
-            background-color: #4d8b6c;
-            color: white;
-        }
+      
 
         .active:hover{
             background-color: #3d6e55;
             color: white;
         }
     }
+
+    .navbar-button.active{
+            background-color: #4d8b6c;
+            color: white;
+        }
 </style>

@@ -11,52 +11,89 @@ import CopyrightIcon from '../components/icons/CopyrightIcon.astro';
 import TrophyIcon from '../components/icons/TrophyIcon.astro';
 import ScriptIcon from '../components/icons/ScriptIcon.astro';
 import PuzzleIcon from '../components/icons/PuzzleIcon.astro';
+import TeamBanner from '../components/TeamBanner.astro';
+import ContactForm from '../components/ContactForm.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout title="Abogados - Type Of Legal">
-	<Navbar />
-	<Banner />
-	<section id="services" class="services"> 
-		<div class="services-section-wrapper">
-			<div class="services-section-header">
-				<h2>Nuestros Servicios Legales</h2>
-				<p>Ofrecemos servicios legales integrales a negocios tecnológios e innovadores</p>
+	<Navbar client:load />
+	<main>
+		<Banner />
+		<section id="services" class="services"> 
+			<div class="services-section-wrapper">
+				<div class="services-section-header">
+					<h2>Nuestros Servicios Legales</h2>
+					<p>Ofrecemos servicios legales integrales a negocios tecnológios e innovadores</p>
+				</div>
+				<div class="services-section-cards">
+					<ServiceCard title='Protección de Datos' description='Asesoría y cumplimiento normativo en materia de protección de datos personales.'>
+						<ShieldIcon slot="icon" />
+					</ServiceCard>
+					<ServiceCard title='Derecho digital y Web' description='Redactamos todos los textos legales que necesita tu sitio web, ecommerce o app para cumplir con la normativa y operar con seguridad jurídica desde el primer clic.'>
+						<WorldIcon slot="icon" />
+					</ServiceCard>
+					<ServiceCard title='Contratación Tecnológica' description='Te ayudamos a crear, revisar y negociar contratos tecnológicos y comerciales clave para tu negocio, protegiendo tus intereses sin perder agilidad.'>
+						<SettingAddIcon slot="icon" />
+					</ServiceCard>
+					<ServiceCard title='Inteligencia Artificial y Automatización' description='Alineamos tus sistemas de IA y automatización con la normativa vigente, evaluamos riesgos y diseñamos mecanismos de control y transparencia.'>
+						<BrainIcon slot="icon" />
+					</ServiceCard>
+					<ServiceCard title='Propiedad Intelectual' description='Protege y gestiona legalmente tus creaciones, software, marcas o contenidos digitales con contratos adecuados y asesoría frente a posibles infracciones.'>
+						<CopyrightIcon slot="icon" />
+					</ServiceCard>
+					<ServiceCard title='Sorteos, Concursos y Publicidad Digital' description='Legalizamos sorteos, promociones y campañas publicitarias online, asegurando el cumplimiento normativo en redes, ecommerce y colaboraciones con influencers.'>
+						<TrophyIcon slot="icon" />
+					</ServiceCard>
+					<ServiceCard title='Derecho Mercantil y Startups' description='Acompañamos a startups y empresas en todo su ciclo: constitución, pactos de socios, inversiones, estructuras jurídicas y gobierno corporativo.'>
+						<ScriptIcon slot="icon" />
+					</ServiceCard>
+					<ServiceCard title='Externalización del Departamento Legal' description='Nos convertimos en tu departamento legal externalizado, brindando asesoría continua y personalizada en todas las áreas clave de tu negocio.'>
+						<PuzzleIcon slot="icon" />
+					</ServiceCard>
+				</div>
+			
+	
 			</div>
-			<div class="services-section-cards">
-				<ServiceCard title='Protección de Datos' description='Asesoría y cumplimiento normativo en materia de protección de datos personales.'>
-					<ShieldIcon slot="icon" />
-				</ServiceCard>
-				<ServiceCard title='Derecho digital y Web' description='Redactamos todos los textos legales que necesita tu sitio web, ecommerce o app para cumplir con la normativa y operar con seguridad jurídica desde el primer clic.'>
-					<WorldIcon slot="icon" />
-				</ServiceCard>
-				<ServiceCard title='Contratación Tecnológica' description='Te ayudamos a crear, revisar y negociar contratos tecnológicos y comerciales clave para tu negocio, protegiendo tus intereses sin perder agilidad.'>
-					<SettingAddIcon slot="icon" />
-				</ServiceCard>
-				<ServiceCard title='Inteligencia Artificial y Automatización' description='Alineamos tus sistemas de IA y automatización con la normativa vigente, evaluamos riesgos y diseñamos mecanismos de control y transparencia.'>
-					<BrainIcon slot="icon" />
-				</ServiceCard>
-				<ServiceCard title='Propiedad Intelectual' description='Protege y gestiona legalmente tus creaciones, software, marcas o contenidos digitales con contratos adecuados y asesoría frente a posibles infracciones.'>
-					<CopyrightIcon slot="icon" />
-				</ServiceCard>
-				<ServiceCard title='Sorteos, Concursos y Publicidad Digital' description='Legalizamos sorteos, promociones y campañas publicitarias online, asegurando el cumplimiento normativo en redes, ecommerce y colaboraciones con influencers.'>
-					<TrophyIcon slot="icon" />
-				</ServiceCard>
-				<ServiceCard title='Derecho Mercantil y Startups' description='Acompañamos a startups y empresas en todo su ciclo: constitución, pactos de socios, inversiones, estructuras jurídicas y gobierno corporativo.'>
-					<ScriptIcon slot="icon" />
-				</ServiceCard>
-				<ServiceCard title='Externalización del Departamento Legal' description='Nos convertimos en tu departamento legal externalizado, brindando asesoría continua y personalizada en todas las áreas clave de tu negocio.'>
-					<PuzzleIcon slot="icon" />
-				</ServiceCard>
-			</div>
-		
+		</section>
+		<section id="about" class="about">
 
-		</div>
-	</section>
+			<div class="about-wrapper">
+				<div class="bg-image"></div>
+				<div class="content-overlay">
+					<div class="content-wrapper">
+						<div class="content">
+							<h2>Derecho hecho simple</h2>
+							<p>Type of Legal nace del deseo de hacer derecho de otro modo. Creemos en el asesoramiento jurídico como una herramienta clave e indispensable a la hora de gestionar y hacer crecer tu negocio especialmente en un entorno como el actual: digital, complejo y en continua transformación.</p>
+							<p>Entendemos que un asesoramiento jurídico eficaz y de calidad no tiene porqué implicar un lenguaje complejo y unas tarifas desorbitadas.</p>
+							<p>Si tienes un negocio con presencia en el entorno digital estamos seguros de que podemos ayudarte.</p>
+						</div>
+			
+					</div>
+					
+				</div>
+			
+			</div>
+			<TeamBanner />
+
+		</section>
+		<section id="contact" class="contact">
+			<div class="contact-header">
+				<h2>¿Necesitas asesoramiento legal especializado?</h2>
+				<p>Nuestro equipo de abogados está listo para ayudarte con cualquier consulta legal relacionada con tecnología y derecho digital.</p>
+			</div>
+
+			<ContactForm/>
+		</section>
+	</main>
+	
 </Layout>
 <style is:global>
+	html {
+  scroll-behavior: smooth;
+}
 	  :root {
     --background: 0 0% 100%;
     --foreground: 220 10% 3.9%;
@@ -81,13 +118,29 @@ import PuzzleIcon from '../components/icons/PuzzleIcon.astro';
   }
 * {
 	font-family: sans-serif;
+	overflow: visible !important;
+
 }
 
+main{
+	margin-top: 95px;
+}
+
+
+
+h2{
+				margin: 0;
+				font-size: 40px;
+				font-weight: bold;
+				color: #2e3c2e;
+			}
 #services {
 	display: flex;
 	justify-content: center;
 	padding: 50px 20px;
 	min-height: 100dvh;
+	scroll-margin-top: 90px; /* ajusta según la altura de tu header */
+
 	
 	.services-section-wrapper{
 		width: 100%;
@@ -102,12 +155,7 @@ import PuzzleIcon from '../components/icons/PuzzleIcon.astro';
 			flex-direction: column;
 			align-items: center;
 			gap: 20px;
-			h2{
-				margin: 0;
-				font-size: 40px;
-				font-weight: bold;
-				color: #2e3c2e;
-			}
+			
 			p{
 				margin: 0;
 				font-size: 20px;
@@ -127,5 +175,178 @@ import PuzzleIcon from '../components/icons/PuzzleIcon.astro';
 	}
 }
 
-.
+#about{
+	background: #f0f5f0de;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	scroll-margin-top: 90px; /* ajusta según la altura de tu header */
+
+
+	.about-wrapper{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		position: relative;
+		min-height: 60dvh;
+		.bg-image{
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+              /* Fondo degradado base: de #f0f5f0 a white */
+
+  /* Imagen encima */
+  background-image: url('/src/assets/images/lorene-farrugia-JpmC-tAHiVA-unsplash.jpg');
+  background-position: right center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-blend-mode: normal;
+
+  /* Difuminado de la imagen hacia la izquierda */
+  mask-image: linear-gradient(to left, black 10%, transparent 50%);
+  -webkit-mask-image: linear-gradient(to left, black 10%, transparent 50%);
+        }
+
+		    .content-overlay{
+            background: linear-gradient(to right, #f0f5f0de, rgba(255, 255, 255, 0.589));
+
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+
+            .content-wrapper{
+                display: flex;
+                align-items: center;
+                position: relative;
+                width: 100%;
+                padding: 0px 20px;
+                max-width: 1300px;
+                box-sizing: border-box;
+
+                .content{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 60%;
+                    padding: 20px;
+                    gap: 15px;
+					animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+
+               
+
+                    p{
+                        font-weight: bold;
+                        color: #5a6b5a;
+                        font-size: 20px;
+                    }
+                    .banner-buttons{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+
+                        button{
+                        border-radius: 0.5rem;
+                        text-decoration: none;
+                        color: #2e3c2e;
+                        padding: 12px 22px;
+                        text-align: center;
+                        vertical-align: text-bottom;
+                        font-weight: 600;
+                        transition: all 0.3s ease-in-out;
+                        outline: none;
+                        border: 0;
+                        cursor: pointer;
+                        }
+
+                        .style1{
+                            background-color: #4d8b6c;
+                            color: white;
+
+                            
+                         }
+
+                        .style1:hover{
+                            background-color: #3d6e55;
+                            color: white;
+                        }
+
+                        .style2{
+                            border: 1px solid #4d8b6c;
+                            background-color: white;
+                            color: #4d8b6c;
+                        }
+
+                        .style2:hover{
+                            background-color: #d5e3db
+                        }
+                    }
+                }
+            }
+
+            h1{
+            animation: slide-up 1s ease-out;
+            font-size: 2.25rem;        /* text-4xl */
+            font-weight: 700;          /* font-bold */
+            letter-spacing: -0.015em;  /* tracking-tight */
+            color: #2e3c2e;
+            }
+        }
+
+		.about-content{
+			position: absolute;
+			z-index: 1000px;
+		}
+
+		h2{
+			width: 100%;
+			margin-bottom: 40px;
+		}
+		
+		p{
+			margin: 0;
+				font-size: 20px;
+				color: #5a6b5a;
+				font-weight: bold;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+#contact{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 30px;
+	align-items: center;
+	background-image: url('/src/assets/images/pexels---4059426.jpg');
+	scroll-margin-top: 90px; /* ajusta según la altura de tu header */
+
+	.contact-header{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0;
+	}
+	p{
+			margin: 0;
+				font-size: 20px;
+				color: white;
+				font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+	h2{
+		margin-top: 50px;
+		color: white;
+
+	}
+}
 </style>
