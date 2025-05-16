@@ -50,33 +50,75 @@ const remainingPosts = posts.filter(post =>
 
 
 <style is:global>
-    * {
-	font-family: sans-serif;
-	overflow: visible !important;
-
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 120px;
 }
 
-#featuredBlog{
+/* Featured Blog */
+#featuredBlog {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    padding: 10px;
     max-width: 1300px;
     gap: 20px;
-    article{
-        width: calc(50% - 10px);
-    }
 }
 
-#blogSection{
+#featuredBlog article {
+    width: calc(50% - 10px);
+}
+
+/* Blog Section Grid */
+#blogSection {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(32%, 1fr));
     gap: 20px;
     max-width: 1300px;
+    width: 100%;
     padding: 20px;
 }
+
+/* Responsive: Tablets */
+@media (max-width: 1300px) {
+    #featuredBlog article {
+        width: 100%;
+    }
+
+    #blogSection {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+/* Responsive: Mobile devices */
+@media (max-width: 768px) {
+    main {
+        margin-top: 86px;
+    }
+
+    #featuredBlog article {
+        width: 100%;
+    }
+
+    #blogSection {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}
+
+/* Responsive: Extra small devices */
+@media (max-width: 480px) {
+    #blogSection {
+        gap: 15px;
+    }
+}
+
+
 </style>
