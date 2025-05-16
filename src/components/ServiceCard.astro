@@ -186,7 +186,7 @@ dialog::backdrop {
             bottom: 0;
             width: 40px;
             height: 3px;
-            background-color: #4d8b6c;
+            background: linear-gradient(to right, #4d8b6c, #6bbd97);
             border-radius: 3px;
             transition: width 0.3s ease;
         }
@@ -214,6 +214,7 @@ dialog::backdrop {
     right: 0;
     height: 4px;
     background: linear-gradient(to right, #4d8b6c, #6bbd97);
+    
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
