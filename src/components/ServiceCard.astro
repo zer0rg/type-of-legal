@@ -15,13 +15,13 @@ const { Content } = await render(Astro.props.service)
 
 
 ---
-<div id={`serviceCard-${id}`} class="service-card" data-id={id}>
+<div id={`serviceCard-${id}`} class="service-card" data-id={id} aria-label={`${title} - ${description}`}>
     <div class="icon-wrapper">
       <slot name="icon" />
     </div>
     <h3>{title}</h3>
     <p>{description}</p>
-    <a class="service-card-button">Saber más</a>
+    <span class="service-card-button">Saber más</a>
     <div class="underline"></div>
   </div>
   
@@ -183,7 +183,7 @@ dialog::backdrop {
             color: #5a6b5a;
         }
 
-        a{
+        span{
             color: #4d8b6c;
             text-decoration: none;
         }

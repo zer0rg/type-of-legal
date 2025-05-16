@@ -17,7 +17,7 @@ const { title, date, author, category } = post.data;
 const { Content } = await post.render();
 ---
 
-<Layout title="Blog - Type of Legal">
+<Layout title={`${title} - Type of Legal`}>
     <Navbar/>
     <main>
         <div class="post-header">
