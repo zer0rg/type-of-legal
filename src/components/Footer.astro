@@ -1,0 +1,391 @@
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="/branding/logo_2_color.png" alt="Type Of Legal Logo" class="logo">
+                <p class="brand-description">Abogados especialistas en nuevas tecnologías, protección de datos, comercio electrónico, marketing y reputación online.</p>
+            </div>
+
+            <div class="footer-columns">
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#" class="footer-link"><span>Inicio</span></a></li>
+                        <li><a href="#" class="footer-link"><span>Servicios</span></a></li>
+                        <li><a href="#" class="footer-link"><span>Nosotros</span></a></li>
+                        <li><a href="#" class="footer-link"><span>Contacto</span></a></li>
+                        <li><a href="#" class="footer-link"><span>Blog</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Información Legal</h4>
+                    <ul>
+                        <li><a href="#" class="footer-link"><span>Aviso legal</span></a></li>
+                        <li><a href="#" class="footer-link"><span>Política de privacidad</span></a></li>
+                        <li><a href="#" class="footer-link"><span>Política de cookies</span></a></li>
+                        <li><a href="#" class="footer-link"><span>Accesibilidad</span></a></li>
+                        <li><a href="#" class="footer-link"><span>Mapa del sitio</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section contact-section">
+                    <h4>Contacto</h4>
+                    <address>
+                        <div class="contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <p>C. Otero, 1, Salamanca, 28028 Madrid</p>
+                        </div>
+                        <div class="contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <a href="tel:+34644563254">+34 644 56 32 54</a>
+                        </div>
+                        <div class="contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <a href="mailto:info@typeoflegal.com">info@typeoflegal.com</a>
+                        </div>
+                    </address>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Type Of Legal. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<style>
+    /* Base Styles */
+    .footer {
+        background: linear-gradient(to bottom, #f0f5f0 0%, #f5f9f5 100%);
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        color: #5a6b5a;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 -10px 30px rgba(77, 139, 108, 0.05);
+    }
+
+
+
+    .footer-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 70px 0 50px;
+        gap: 60px;
+    }
+
+    /* Brand Section */
+    .footer-brand {
+        flex: 0 0 30%;
+        max-width: 380px;
+    }
+
+    .logo {
+        width: 160px;
+        height: auto;
+        margin-bottom: 24px;
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.05));
+        transition: filter 0.3s ease, transform 0.3s ease;
+    }
+
+    .logo:hover {
+        filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+        transform: translateY(-2px);
+    }
+
+    .brand-description {
+        color: #5a6b5a;
+        font-size: 15px;
+        line-height: 1.7;
+        margin-bottom: 0;
+        position: relative;
+        padding-left: 12px;
+        border-left: 3px solid rgba(77, 139, 108, 0.3);
+    }
+
+    /* Footer Columns */
+    .footer-columns {
+        flex: 0 0 65%;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .footer-section {
+        flex: 1;
+        min-width: 160px;
+    }
+
+    .footer-section h4 {
+        color: #2e3c2e;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 24px;
+        position: relative;
+        padding-bottom: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .footer-section h4::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 40px;
+        height: 3px;
+        background-color: #4d8b6c;
+        border-radius: 3px;
+        transition: width 0.3s ease;
+    }
+
+    .footer-section:hover h4::after {
+        width: 60px;
+    }
+
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-section li {
+        margin-bottom: 14px;
+    }
+
+    .footer-link {
+        color: #5a6b5a;
+        text-decoration: none;
+        font-size: 15px;
+        transition: all 0.3s ease;
+        display: inline-block;
+        position: relative;
+        padding: 2px 0;
+    }
+
+    .footer-link span {
+        position: relative;
+        z-index: 1;
+    }
+
+    .footer-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: rgba(77, 139, 108, 0.08);
+        transition: width 0.3s ease;
+        z-index: 0;
+    }
+
+    .footer-link:hover {
+        color: #4d8b6c;
+        transform: translateX(5px);
+    }
+
+    .footer-link:hover::before {
+        width: 100%;
+    }
+
+    /* Contact Section */
+    .contact-section address {
+        font-style: normal;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 16px;
+        transition: transform 0.3s ease;
+    }
+
+    .contact-item:hover {
+        transform: translateX(5px);
+    }
+
+    .contact-item svg {
+        color: #4d8b6c;
+        margin-top: 3px;
+        flex-shrink: 0;
+        filter: drop-shadow(0 1px 2px rgba(77, 139, 108, 0.2));
+    }
+
+    .contact-item p, 
+    .contact-item a {
+        color: #5a6b5a;
+        text-decoration: none;
+        font-size: 15px;
+        margin: 0;
+        transition: color 0.3s ease;
+    }
+
+    .contact-item a:hover {
+        color: #4d8b6c;
+    }
+
+    /* Footer Bottom */
+    .footer-bottom {
+        position: relative;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .footer-bottom::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        height: 1px;
+        background: linear-gradient(to right, transparent, rgba(77, 139, 108, 0.2), transparent);
+    }
+
+    .footer-bottom p {
+        color: #5a6b5a;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    /* Responsive Styles - Optimized for wide screens */
+    @media (min-width: 1600px) {
+        .footer-container {
+            max-width: 1600px;
+            padding: 0 60px;
+        }
+        
+        .footer-content {
+            gap: 80px;
+        }
+        
+        .footer-brand {
+            flex: 0 0 25%;
+        }
+        
+        .footer-columns {
+            flex: 0 0 70%;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .footer-content {
+            gap: 40px;
+        }
+        
+        .footer-brand {
+            flex: 0 0 35%;
+        }
+        
+        .footer-columns {
+            flex: 0 0 60%;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .footer-content {
+            flex-direction: column;
+            padding: 60px 0 40px;
+        }
+        
+        .footer-brand {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .footer-columns {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .footer-container {
+            padding: 0 30px;
+        }
+        
+        .footer-columns {
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        
+        .footer-section {
+            flex: 0 0 calc(50% - 15px);
+        }
+        
+        .contact-section {
+            flex: 0 0 100%;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .footer-container {
+            padding: 0 20px;
+        }
+        
+        .footer-content {
+            padding: 50px 0 30px;
+        }
+        
+        .footer-columns {
+            flex-direction: column;
+            gap: 40px;
+        }
+        
+        .footer-section {
+            flex: 0 0 100%;
+        }
+        
+        .footer-section h4 {
+            text-align: center;
+        }
+        
+        .footer-section h4::after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .footer-section ul {
+            text-align: center;
+        }
+        
+        .contact-item {
+            justify-content: center;
+        }
+        
+        .footer-link:hover {
+            transform: translateX(0) translateY(-2px);
+        }
+        
+        .contact-item:hover {
+            transform: translateX(0) translateY(-2px);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .footer-content {
+            padding: 40px 0 20px;
+        }
+        
+        .logo {
+            width: 130px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        
+        .brand-description {
+            text-align: center;
+            padding-left: 0;
+            border-left: none;
+            padding-top: 12px;
+            border-top: 3px solid rgba(77, 139, 108, 0.3);
+        }
+    }
+</style>
