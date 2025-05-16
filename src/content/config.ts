@@ -8,4 +8,12 @@
   }),
 });
 
-export const collections = { services };
+const posts = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    date: z.date(),
+    author: z.string(),
+  }),
+});
+
+export const collections = { services, posts };

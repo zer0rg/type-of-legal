@@ -1,0 +1,15 @@
+---
+interface Props {
+  post: any;
+}
+
+const { post } = Astro.props;
+const { title, date, author } = post.data;
+---
+
+<article>
+
+    <h2>{title}</h2>
+    <p>Publicado el {date.toLocaleDateString('es-ES', { dateStyle: 'long' })}</p>
+    <p>Autor: {author}</p>
+</article>
