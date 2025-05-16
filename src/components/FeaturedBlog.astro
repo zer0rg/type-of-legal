@@ -8,7 +8,7 @@ const { title, date, author, category, image } = post.data;
 const arrayCategories = category.split('|');
 ---
 
-<article class="blog-post" id={`blogPost-${post.slug}`} data-id={post.slug} style={`background-image: url('/public/${image}');`}>
+<article class="blog-post" id={`blogPost-${post.slug}`} data-id={post.slug} style={`background-image: url('/images/${image}');`}>
     <a href={`/blog/${post.slug}`}>
         <div class="img-container">
         </div>
