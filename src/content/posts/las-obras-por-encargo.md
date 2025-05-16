@@ -1,6 +1,7 @@
 ---
 title: "Las obras por encargo"
 date: 2021-10-20
+category: Propiedad Intelectual
 author: Type of Legal
 ---
 

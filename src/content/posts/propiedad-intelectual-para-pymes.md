@@ -1,6 +1,7 @@
 ---
 title: "Propiedad Intelectual para PYMES"
 date: 2021-11-24
+category: Propiedad Intelectual
 author: Type of Legal
 ---
 

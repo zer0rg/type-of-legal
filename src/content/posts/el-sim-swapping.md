@@ -1,6 +1,7 @@
 ---
 title: "El SIM swapping"
 date: 2021-10-26
+category: Derecho digital
 author: Type of Legal
 ---
 

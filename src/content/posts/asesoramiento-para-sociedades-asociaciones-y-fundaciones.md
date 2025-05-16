@@ -1,6 +1,7 @@
 ---
 title: "Asesoramiento para sociedades, asociaciones y fundaciones"
 date: 2022-09-20
+category: Derecho digital
 author: Type of Legal
 ---
 

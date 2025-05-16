@@ -1,6 +1,7 @@
 ---
 title: "Transferencias internacionales de datos: las nuevas Cláusulas Contractuales Tipo (CCS)"
 date: 2022-03-08
+category: Protección de datos
 author: Type of Legal
 ---
 

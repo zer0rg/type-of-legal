@@ -1,6 +1,7 @@
 ---
 title: "El primer código de conducta sectorial (RGPD)"
 date: 2022-03-01
+category: Protección de datos
 author: Type of Legal
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Compraventa de empresas"
 date: 2022-09-30
+category: Derecho digital|Derecho mercantil|Dominios y marcas
 author: Type of Legal
 ---
 

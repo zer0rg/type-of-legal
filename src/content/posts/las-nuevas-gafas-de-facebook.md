@@ -1,6 +1,7 @@
 ---
 title: "Las nuevas gafas de Facebook"
 date: 2021-10-07
+category: Protección de datos
 author: Type of Legal
 ---
 

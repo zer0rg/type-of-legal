@@ -1,6 +1,7 @@
 ---
 title: "La responsabilidad de los administradores de una sociedad"
 date: 2021-10-06
+category: Derecho mercantil
 author: Type of Legal
 ---
 

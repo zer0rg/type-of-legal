@@ -1,6 +1,7 @@
 ---
 title: "¿Debo registrar mi software?"
 date: 2022-03-22
+category: Propiedad Intelectual
 author: Type of Legal
 ---
 

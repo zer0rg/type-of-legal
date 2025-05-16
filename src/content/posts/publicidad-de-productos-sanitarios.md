@@ -1,6 +1,7 @@
 ---
 title: "Publicidad de productos sanitarios"
 date: 2022-01-05
+category: Derecho digital
 author: Type of Legal
 ---
 

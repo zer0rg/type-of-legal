@@ -1,6 +1,7 @@
 ---
 title: "Cuestiones legales del registro de marca"
 date: 2021-09-22
+category: Dominios y marcas
 author: Type of Legal
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Aspectos legales de la publicidad online"
 date: 2021-09-20
+category: Derecho digital
 author: Type of Legal
 ---
 

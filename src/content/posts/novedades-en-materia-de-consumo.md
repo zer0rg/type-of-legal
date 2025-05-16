@@ -1,6 +1,7 @@
 ---
 title: "Novedades en materia de consumo"
 date: 2022-01-07
+category: Derecho digital
 author: Type of Legal
 ---
 

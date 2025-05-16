@@ -1,6 +1,7 @@
 ---
 title: "Contrato de prestación de servicios"
 date: 2021-10-05
+category: Derecho mercantil
 author: Type of Legal
 ---
 

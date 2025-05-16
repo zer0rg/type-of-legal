@@ -1,6 +1,7 @@
 ---
 title: "Copyright, Copyleft o Creative Commons"
 date: 2021-12-29
+category: Propiedad Intelectual
 author: Type of Legal
 ---
 

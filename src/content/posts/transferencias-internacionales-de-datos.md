@@ -1,6 +1,7 @@
 ---
 title: "Transferencias internacionales de datos"
 date: 2021-10-28
+category: Protección de datos
 author: Type of Legal
 ---
 

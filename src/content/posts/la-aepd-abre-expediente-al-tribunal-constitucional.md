@@ -1,6 +1,7 @@
 ---
 title: "La AEPD abre expediente al Tribunal Constitucional"
 date: 2021-11-29
+category: Protección de datos
 author: Type of Legal
 ---
 

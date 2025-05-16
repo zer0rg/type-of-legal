@@ -1,6 +1,7 @@
 ---
 title: "Whistleblowing: canal de denuncias interno obligatorio"
 date: 2022-04-19
+category: Protección de datos
 author: Type of Legal
 ---
 

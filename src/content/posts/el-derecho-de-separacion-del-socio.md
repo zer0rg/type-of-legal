@@ -1,6 +1,7 @@
 ---
 title: "El derecho de separación del socio"
 date: 2021-10-18
+category: Derecho mercantil
 author: Type of Legal
 ---
 

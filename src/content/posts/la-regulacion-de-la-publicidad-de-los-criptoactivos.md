@@ -1,6 +1,7 @@
 ---
 title: "La novedosa regulación de la publicidad de los criptoactivos"
 date: 2022-03-03
+category: Derecho digital|Derecho mercantil
 author: Type of Legal
 ---
 

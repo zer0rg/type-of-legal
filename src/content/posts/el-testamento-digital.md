@@ -1,6 +1,7 @@
 ---
 title: "El Testamento Digital"
 date: 2021-12-23
+category: Derecho digital
 author: Type of Legal
 ---
 

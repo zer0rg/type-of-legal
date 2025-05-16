@@ -1,6 +1,7 @@
 ---
 title: "Una regulación para las criptomonedas"
 date: 2022-02-17
+category: Derecho digital
 author: Type of Legal
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Aspectos legales tienda online"
 date: 2023-01-26
+category: Derecho digital|Dominios y marcas|Propiedad Intelectual|Protección de datos
 author: Type of Legal
 ---
 

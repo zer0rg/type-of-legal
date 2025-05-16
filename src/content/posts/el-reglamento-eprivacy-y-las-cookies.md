@@ -1,6 +1,7 @@
 ---
 title: "El Reglamento ePrivacy y las cookies"
 date: 2021-11-16
+category: Protección de datos
 author: Type of Legal
 ---
 

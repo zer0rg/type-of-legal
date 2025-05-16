@@ -1,6 +1,7 @@
 ---
 title: "El registro de datos en alojamientos turísticos."
 date: 2022-04-21
+category: Protección de datos
 author: Type of Legal
 ---
 

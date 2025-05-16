@@ -1,6 +1,7 @@
 ---
 title: "Delitos contra la propiedad intelectual (y algo de NFT)"
 date: 2022-01-27
+category: Derecho digital|Propiedad Intelectual
 author: Type of Legal
 ---
 

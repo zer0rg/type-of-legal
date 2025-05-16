@@ -1,6 +1,7 @@
 ---
 title: "Las calumnias en el entorno digital"
 date: 2022-11-21
+category: Derecho digital
 author: Type of Legal
 ---
 

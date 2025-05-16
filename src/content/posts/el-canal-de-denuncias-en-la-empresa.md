@@ -1,6 +1,7 @@
 ---
 title: "El canal de denuncias en la empresa"
 date: 2023-09-20
+category: Consulting|Derecho digital|Protección de datos
 author: Type of Legal
 ---
 

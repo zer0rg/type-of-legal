@@ -1,6 +1,7 @@
 ---
 title: "Consumo busca prohibir las reseñas falsas en Google"
 date: 2022-01-11
+category: Derecho digital
 author: Type of Legal
 ---
 

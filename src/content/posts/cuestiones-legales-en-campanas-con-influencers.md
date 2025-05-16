@@ -1,6 +1,7 @@
 ---
 title: "Cuestiones legales en campañas con influencers"
 date: 2021-09-27
+category: Derecho digital
 author: Type of Legal
 ---
 

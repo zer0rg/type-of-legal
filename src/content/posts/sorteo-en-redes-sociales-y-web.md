@@ -1,6 +1,7 @@
 ---
 title: "Sorteo en redes sociales y web"
 date: 2022-04-12
+category: Derecho digital
 author: Type of Legal
 ---
 

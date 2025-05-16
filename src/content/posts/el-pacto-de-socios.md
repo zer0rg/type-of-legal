@@ -1,6 +1,7 @@
 ---
 title: "El pacto de socios"
 date: 2021-09-29
+category: Derecho mercantil
 author: Type of Legal
 ---
 

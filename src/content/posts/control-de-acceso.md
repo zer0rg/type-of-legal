@@ -1,6 +1,7 @@
 ---
 title: "Control de Acceso"
 date: 2022-03-29
+category: Protección de datos
 author: Type of Legal
 ---
 

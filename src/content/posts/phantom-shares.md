@@ -1,6 +1,7 @@
 ---
 title: "Phantom Shares"
 date: 2021-11-02
+category: Derecho mercantil
 author: Type of Legal
 ---
 

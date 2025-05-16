@@ -1,6 +1,7 @@
 ---
 title: "Actualización de la Guía de Cookies (AEPD)"
 date: 2023-07-11
+category: Protección de datos
 author: Type of Legal
 ---
 

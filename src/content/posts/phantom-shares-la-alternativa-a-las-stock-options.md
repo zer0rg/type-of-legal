@@ -1,6 +1,7 @@
 ---
 title: "Phantom Shares, la alternativa a las Stock Options."
 date: 2022-04-28
+category: Derecho mercantil
 author: Type of Legal
 ---
 

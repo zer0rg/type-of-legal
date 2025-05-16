@@ -1,6 +1,7 @@
 ---
 title: "Cómo hacer una Due Diligence"
 date: 2021-09-28
+category: Derecho mercantil
 author: Type of Legal
 ---
 

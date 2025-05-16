@@ -1,6 +1,7 @@
 ---
 title: "El uso de los bancos de imágenes para campañas publicitarias"
 date: 2022-12-19
+category: Derecho digital|Propiedad Intelectual
 author: Type of Legal
 ---
 

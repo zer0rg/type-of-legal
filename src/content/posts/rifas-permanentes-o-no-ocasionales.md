@@ -1,6 +1,7 @@
 ---
 title: "Rifas permanentes o no ocasionales"
 date: 2021-10-21
+category: Derecho digital
 author: Type of Legal
 ---
 

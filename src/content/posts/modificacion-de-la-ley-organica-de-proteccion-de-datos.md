@@ -1,6 +1,7 @@
 ---
 title: "Modificación de la Ley Orgánica de Protección de Datos"
 date: 2023-06-01
+category: Protección de datos
 author: Type of Legal
 ---
 

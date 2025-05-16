@@ -1,6 +1,7 @@
 ---
 title: "Sanciones por incumplimiento en materia de cookies"
 date: 2021-12-14
+category: Protección de datos
 author: Type of Legal
 ---
 

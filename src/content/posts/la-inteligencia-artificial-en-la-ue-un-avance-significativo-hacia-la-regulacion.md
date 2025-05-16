@@ -1,6 +1,7 @@
 ---
 title: "La Inteligencia Artificial en la UE: Un Avance Significativo hacia la Regulación"
 date: 2023-12-29
+category: Derecho digital|Propiedad Intelectual|Protección de datos
 author: Type of Legal
 ---
 

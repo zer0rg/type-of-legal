@@ -1,6 +1,7 @@
 ---
 title: "Novedades en la normativa de blanqueo de capitales"
 date: 2021-10-11
+category: Derecho mercantil
 author: Type of Legal
 ---
 

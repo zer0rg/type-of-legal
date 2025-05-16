@@ -1,6 +1,7 @@
 ---
 title: "¿Es legal crear una base de datos haciendo uso de web scraping?"
 date: 2022-10-26
+category: Derecho digital|Protección de datos
 author: Type of Legal
 ---
 

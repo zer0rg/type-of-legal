@@ -1,6 +1,7 @@
 ---
 title: "Ventajas de contar con asesoramiento fiscal y laboral"
 date: 2022-08-05
+category: Protección de datos
 author: Type of Legal
 ---
 

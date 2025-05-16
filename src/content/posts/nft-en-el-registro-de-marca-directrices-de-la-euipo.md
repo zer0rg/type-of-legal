@@ -1,6 +1,7 @@
 ---
 title: "NFT en el registro de marca: Directrices de la EUIPO"
 date: 2022-11-30
+category: Derecho digital|Dominios y marcas|Propiedad Intelectual
 author: Type of Legal
 ---
 

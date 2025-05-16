@@ -1,6 +1,7 @@
 ---
 title: "Los datos biométricos"
 date: 2021-10-27
+category: Protección de datos
 author: Type of Legal
 ---
 

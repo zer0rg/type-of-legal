@@ -1,6 +1,7 @@
 ---
 title: "Abogados startup"
 date: 2021-10-25
+category: Derecho digital|Derecho mercantil
 author: Type of Legal
 ---
 

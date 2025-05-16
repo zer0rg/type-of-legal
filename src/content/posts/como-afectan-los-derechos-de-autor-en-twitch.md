@@ -1,6 +1,7 @@
 ---
 title: "Como afectan los derechos de autor en Twitch"
 date: 2021-10-14
+category: Propiedad Intelectual
 author: Type of Legal
 ---
 

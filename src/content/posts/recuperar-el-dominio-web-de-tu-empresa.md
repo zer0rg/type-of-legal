@@ -1,6 +1,7 @@
 ---
 title: "Recuperar el dominio web de tu empresa"
 date: 2021-11-10
+category: Dominios y marcas
 author: Type of Legal
 ---
 

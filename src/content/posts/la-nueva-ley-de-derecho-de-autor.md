@@ -1,6 +1,7 @@
 ---
 title: "La nueva ley de derecho de autor"
 date: 2021-09-08
+category: Propiedad Intelectual
 author: Type of Legal
 ---
 

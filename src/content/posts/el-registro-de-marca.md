@@ -1,6 +1,7 @@
 ---
 title: "El Registro de marca"
 date: 2021-12-21
+category: Dominios y marcas
 author: Type of Legal
 ---
 

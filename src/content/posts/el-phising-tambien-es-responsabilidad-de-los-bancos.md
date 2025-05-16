@@ -1,6 +1,7 @@
 ---
 title: "El phising también es responsabilidad de los bancos"
 date: 2022-04-07
+category: Derecho digital|Protección de datos
 author: Type of Legal
 ---
 

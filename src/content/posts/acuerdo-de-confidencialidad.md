@@ -1,6 +1,7 @@
 ---
 title: "Acuerdo de confidencialidad"
 date: 2021-11-22
+category: Derecho digital
 author: Type of Legal
 ---
 

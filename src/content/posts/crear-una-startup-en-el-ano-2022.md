@@ -1,6 +1,7 @@
 ---
 title: "Crear una startup en el año 2022"
 date: 2022-01-18
+category: Derecho digital|Derecho mercantil|Dominios y marcas|Propiedad Intelectual|Protección de datos
 author: Type of Legal
 ---
 

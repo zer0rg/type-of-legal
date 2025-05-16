@@ -1,6 +1,7 @@
 ---
 title: "Evaluación de impacto en la protección de datos personales"
 date: 2021-10-19
+category: Protección de datos
 author: Type of Legal
 ---
 

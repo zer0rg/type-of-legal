@@ -1,6 +1,7 @@
 ---
 title: "Aspectos legales para ecommerce"
 date: 2021-10-04
+category: Derecho digital
 author: Type of Legal
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Sorteos internacionales"
 date: 2021-11-15
+category: Derecho digital
 author: Type of Legal
 ---
 

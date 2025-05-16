@@ -1,6 +1,7 @@
 ---
 title: "Evaluación de impacto en la protección de datos"
 date: 2022-04-26
+category: Protección de datos
 author: Type of Legal
 ---
 

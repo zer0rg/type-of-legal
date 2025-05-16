@@ -1,6 +1,7 @@
 ---
 title: "La protección de datos en el análisis de comportamiento"
 date: 2023-03-29
+category: Protección de datos
 author: Type of Legal
 ---
 

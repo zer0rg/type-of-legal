@@ -1,6 +1,7 @@
 ---
 title: "Más Allá de la Documentación: La Protección de Datos Como Filosofía Empresarial"
 date: 2024-02-26
+category: Derecho digital|Protección de datos
 author: Type of Legal
 ---
 

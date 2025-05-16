@@ -1,6 +1,7 @@
 ---
 title: "Consideraciones Legales de los eSports"
 date: 2022-11-23
+category: Derecho digital|Propiedad Intelectual
 author: Type of Legal
 ---
 

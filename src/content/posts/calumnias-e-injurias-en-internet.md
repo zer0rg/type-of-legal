@@ -1,6 +1,7 @@
 ---
 title: "Calumnias e injurias en internet"
 date: 2021-09-07
+category: Derecho digital
 author: Type of Legal
 ---
 

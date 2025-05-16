@@ -1,6 +1,7 @@
 ---
 title: "La importancia de realizar una Evaluación de Impacto de Protección de Datos Personales"
 date: 2023-07-18
+category: Protección de datos
 author: Type of Legal
 ---
 

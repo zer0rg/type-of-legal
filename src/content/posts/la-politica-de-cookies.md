@@ -1,6 +1,7 @@
 ---
 title: "La política de cookies"
 date: 2021-09-06
+category: Derecho digital
 author: Type of Legal
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Como crear una empresa en internet"
 date: 2021-09-15
+category: Derecho mercantil|Dominios y marcas
 author: Type of Legal
 ---
 

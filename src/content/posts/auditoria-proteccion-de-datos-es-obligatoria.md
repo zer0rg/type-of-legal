@@ -1,6 +1,7 @@
 ---
 title: "Auditoría protección de datos, ¿es obligatoria?"
 date: 2022-02-24
+category: Protección de datos
 author: Type of Legal
 ---
 

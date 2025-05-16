@@ -49,6 +49,18 @@ import Services from '../components/Services.astro';
 	
 </Layout>
 <style is:global>
+
+@keyframes appear {
+        from {
+            opacity: 0.1;
+            scale: 0.8;
+        }
+        to {
+            opacity: 1;
+            scale: 1;
+        }
+
+    }
 	html {
   scroll-behavior: smooth;
 }
@@ -98,6 +110,7 @@ h2{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
 
 
 	.about-wrapper{
@@ -243,7 +256,7 @@ h2{
 	padding-top: 30px;
 	align-items: center;
 	background-image: url('/src/assets/images/pexels---4059426.jpg');
-	scroll-margin-top: 90px; /* ajusta según la altura de tu header */
+	scroll-margin-top: 90px; 
 
 	.contact-header{
 		display: flex;

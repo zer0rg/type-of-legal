@@ -1,6 +1,7 @@
 ---
 title: "Todo sobre los textos legales para la web"
 date: 2022-07-05
+category: Derecho digital|Propiedad Intelectual|Protección de datos
 author: Type of Legal
 ---
 

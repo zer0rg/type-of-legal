@@ -1,6 +1,7 @@
 ---
 title: "Los datos biométricos en ámbito laboral: prohibidos"
 date: 2023-11-29
+category: Derecho digital|Protección de datos
 author: Type of Legal
 ---
 

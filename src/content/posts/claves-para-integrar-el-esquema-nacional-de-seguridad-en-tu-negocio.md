@@ -1,6 +1,7 @@
 ---
 title: "Claves para Integrar el Esquema Nacional de Seguridad en tu Negocio"
-date: 2021-11-06
+date: 2023-03-12
+category: Derecho digital|Dominios y marcas|Propiedad Intelectual|Protección de datos
 author: Type of Legal
 ---
 

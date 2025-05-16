@@ -1,6 +1,7 @@
 ---
 title: "La nueva Ley del Dato se prepara para el 2024"
 date: 2023-12-22
+category: Derecho digital|Protección de datos
 author: Type of Legal
 ---
 

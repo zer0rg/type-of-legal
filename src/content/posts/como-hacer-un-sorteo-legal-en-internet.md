@@ -1,6 +1,7 @@
 ---
 title: "Como hacer un sorteo legal en internet"
 date: 2022-02-01
+category: Derecho digital
 author: Type of Legal
 ---
 

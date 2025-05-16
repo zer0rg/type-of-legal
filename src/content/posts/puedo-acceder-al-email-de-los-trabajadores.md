@@ -1,6 +1,7 @@
 ---
 title: "¿Puedo acceder al email de los trabajadores?"
 date: 2021-11-03
+category: Protección de datos
 author: Type of Legal
 ---
 

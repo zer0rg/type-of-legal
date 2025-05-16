@@ -1,6 +1,7 @@
 ---
 title: "El momento de la Ley de Servicios Digitales"
 date: 2022-02-22
+category: Derecho digital|Protección de datos
 author: Type of Legal
 ---
 

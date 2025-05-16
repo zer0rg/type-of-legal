@@ -29,7 +29,7 @@ import MenuIcon from './icons/MenuIcon.astro';
           const sections = document.querySelectorAll("section[id]");
           const navLinks = document.querySelectorAll("#navbar a[href^='/#']");
             
-            if (path === '/blog'){
+            if (path.includes('blog')){
                 const blogButton = document.getElementById("blog-button");
                 if (blogButton) {
                     blogButton.classList.add("active");

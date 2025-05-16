@@ -1,6 +1,7 @@
 ---
 title: "Los retos de la Inteligencia Artificial"
 date: 2023-05-29
+category: Derecho digital
 author: Type of Legal
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Textos legales para web"
 date: 2021-11-25
+category: Protección de datos
 author: Type of Legal
 ---
 

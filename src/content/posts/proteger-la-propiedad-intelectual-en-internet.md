@@ -1,6 +1,7 @@
 ---
 title: "Proteger la propiedad intelectual en internet"
 date: 2021-11-09
+category: Propiedad Intelectual
 author: Type of Legal
 ---
 

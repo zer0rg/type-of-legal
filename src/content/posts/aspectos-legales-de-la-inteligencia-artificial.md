@@ -1,6 +1,7 @@
 ---
 title: "Aspectos legales de la Inteligencia Artificial"
 date: 2023-10-26
+category: Derecho digital
 author: Type of Legal
 ---
 

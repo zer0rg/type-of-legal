@@ -1,6 +1,7 @@
 ---
 title: "El contrato de desarrollo de software"
 date: 2021-09-02
+category: Derecho digital
 author: Type of Legal
 ---
 

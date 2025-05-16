@@ -1,6 +1,7 @@
 ---
 title: "Protección de datos para empresas"
 date: 2022-01-25
+category: Protección de datos
 author: Type of Legal
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Qué son los NFT y cómo funcionan"
 date: 2022-02-15
+category: Derecho digital|Propiedad Intelectual
 author: Type of Legal
 ---
 

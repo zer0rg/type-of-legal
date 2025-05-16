@@ -1,6 +1,7 @@
 ---
 title: "Proteger la propiedad intelectual en el entorno digital"
 date: 2022-06-28
+category: Propiedad Intelectual
 author: Type of Legal
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Auditoría protección de datos"
 date: 2023-01-03
+category: Protección de datos
 author: Type of Legal
 ---
 

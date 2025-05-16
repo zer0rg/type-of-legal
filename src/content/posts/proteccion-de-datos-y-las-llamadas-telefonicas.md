@@ -1,6 +1,7 @@
 ---
 title: "Protección de datos y las llamadas telefónicas"
 date: 2023-06-28
+category: Protección de datos
 author: Type of Legal
 ---
 

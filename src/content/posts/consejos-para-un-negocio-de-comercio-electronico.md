@@ -1,6 +1,7 @@
 ---
 title: "Consejos para un negocio de comercio electrónico"
 date: 2022-10-13
+category: Derecho digital
 author: Type of Legal
 ---
 

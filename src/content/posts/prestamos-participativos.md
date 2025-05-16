@@ -1,6 +1,7 @@
 ---
 title: "Préstamos participativos"
 date: 2021-11-08
+category: Derecho mercantil
 author: Type of Legal
 ---
 

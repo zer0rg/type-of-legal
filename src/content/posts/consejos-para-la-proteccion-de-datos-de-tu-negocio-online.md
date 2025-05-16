@@ -1,6 +1,7 @@
 ---
 title: "Consejos para la protección de datos de tu negocio online"
 date: 2022-08-22
+category: Protección de datos
 author: Type of Legal
 ---
 

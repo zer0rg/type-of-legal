@@ -1,6 +1,7 @@
 ---
 title: "Requisitos legales para campañas de marketing"
 date: 2021-09-16
+category: Derecho digital
 author: Type of Legal
 ---
 

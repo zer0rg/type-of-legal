@@ -1,6 +1,7 @@
 ---
 title: "Beneficios de una auditoría de protección de datos"
 date: 2022-06-16
+category: Protección de datos
 author: Type of Legal
 ---
 

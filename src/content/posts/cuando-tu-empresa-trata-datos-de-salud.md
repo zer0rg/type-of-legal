@@ -1,6 +1,7 @@
 ---
 title: "Cuando tu empresa trata datos de salud"
 date: 2022-04-14
+category: Protección de datos
 author: Type of Legal
 ---
 

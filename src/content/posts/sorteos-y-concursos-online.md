@@ -1,6 +1,7 @@
 ---
 title: "Sorteos y concursos online"
 date: 2021-09-23
+category: Derecho digital
 author: Type of Legal
 ---
 

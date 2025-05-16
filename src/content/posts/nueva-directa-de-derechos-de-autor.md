@@ -1,6 +1,7 @@
 ---
 title: "Nueva directiva de derechos de autor"
 date: 2021-12-16
+category: Propiedad Intelectual
 author: Type of Legal
 ---
 

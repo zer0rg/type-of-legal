@@ -1,6 +1,7 @@
 ---
 title: "Propuesta reglamento inteligencia artificial"
 date: 2021-11-17
+category: Protección de datos
 author: Type of Legal
 ---
 

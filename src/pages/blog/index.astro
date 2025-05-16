@@ -1,0 +1,82 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NavbarBlog from '../../components/Navbar.astro';
+import { getCollection } from 'astro:content';
+import BlogPost from '../../components/BlogPost.astro';
+import FeaturedBlog from '../../components/FeaturedBlog.astro';
+
+// Obtener todos los posts y ordenarlos por fecha
+const posts = await getCollection('posts');
+posts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+//Obtener titulos de los posts destacados y filtrarlos
+const titlesToInclude = ['Protección de datos para empresas', 'Como hacer un sorteo legal en internet'];
+
+const featuredPosts = posts.filter(post => 
+    titlesToInclude.includes(post.data.title)
+);
+
+// Nuevo array de posts SIN los destacados
+const remainingPosts = posts.filter(post => 
+    !titlesToInclude.includes(post.data.title)
+);
+---
+
+<Layout title="Blog - Type of Legal">
+    <NavbarBlog/>
+    <main>
+        <section id="featuredBlog" class="featuredBlog">
+            {
+                featuredPosts.map((post) => {
+                    return (
+                        <FeaturedBlog post={post} />
+                    );
+                })
+            }
+        </section>
+        <section id="blogSection" class="blog-section">
+            {
+                remainingPosts.map((post) => {
+                    return (
+                        <BlogPost post={post} />
+                    );
+                })
+            }
+        </section>
+        
+    </main>
+
+</Layout>
+
+
+<style is:global>
+    * {
+	font-family: sans-serif;
+	overflow: visible !important;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+#featuredBlog{
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    gap: 20px;
+    article{
+        width: calc(50% - 10px);
+    }
+}
+
+#blogSection{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(32%, 1fr));
+    gap: 20px;
+    max-width: 1300px;
+    padding: 20px;
+}
+</style>

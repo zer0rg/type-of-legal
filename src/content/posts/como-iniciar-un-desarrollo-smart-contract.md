@@ -1,6 +1,7 @@
 ---
 title: 'Cómo iniciar un desarrollo "Smart Contract"'
 date: 2022-11-16
+category: Derecho digital|Protección de datos
 author: Type of Legal
 ---
 

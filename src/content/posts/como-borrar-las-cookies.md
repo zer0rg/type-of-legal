@@ -1,6 +1,7 @@
 ---
 title: "Como borrar las cookies"
 date: 2022-03-24
+category: Protección de datos
 author: Type of Legal
 ---
 

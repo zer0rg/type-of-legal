@@ -1,6 +1,7 @@
 ---
 title: "LA NUEVA LEY PARA INFLUENCERS"
 date: 2022-08-29
+category: Protección de datos
 author: Type of Legal
 ---
 

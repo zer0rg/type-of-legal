@@ -1,6 +1,7 @@
 ---
 title: "Protección legal de los secretos empresariales"
 date: 2021-11-18
+category: Protección de datos
 author: Type of Legal
 ---
 

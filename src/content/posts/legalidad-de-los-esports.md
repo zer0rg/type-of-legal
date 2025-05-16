@@ -1,6 +1,7 @@
 ---
 title: "Legalidad de los e-sports"
 date: 2021-10-13
+category: Derecho digital|Propiedad Intelectual
 author: Type of Legal
 ---
 

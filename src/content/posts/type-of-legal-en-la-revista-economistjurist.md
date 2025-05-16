@@ -1,6 +1,7 @@
 ---
 title: "Type of Legal, en la revista Economist&Jurist"
 date: 2022-10-28
+category: Derecho digital|Protección de datos
 author: Type of Legal
 ---
 

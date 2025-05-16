@@ -1,6 +1,7 @@
 ---
 title: "Bases legales para sorteos o concursos online"
 date: 2022-07-25
+category: Protección de datos
 author: Type of Legal
 ---
 

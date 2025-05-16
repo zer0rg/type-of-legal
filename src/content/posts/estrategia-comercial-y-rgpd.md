@@ -1,6 +1,7 @@
 ---
 title: "Estrategia comercial y RGPD"
 date: 2021-09-21
+category: Protección de datos
 author: Type of Legal
 ---
 

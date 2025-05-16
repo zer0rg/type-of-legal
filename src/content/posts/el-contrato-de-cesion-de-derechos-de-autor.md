@@ -1,6 +1,7 @@
 ---
 title: "El contrato de cesión de derechos de autor"
 date: 2022-03-17
+category: Propiedad Intelectual
 author: Type of Legal
 ---
 

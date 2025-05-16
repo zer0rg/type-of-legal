@@ -1,6 +1,7 @@
 ---
 title: "Tributación básica de una empresa"
 date: 2022-02-10
+category: Derecho mercantil
 author: Type of Legal
 ---
 

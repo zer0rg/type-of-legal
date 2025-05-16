@@ -1,6 +1,7 @@
 ---
 title: "Actuales requisitos para las transferencias internacionales de datos a EEUU"
 date: 2022-10-24
+category: Derecho digital|Protección de datos
 author: Type of Legal
 ---
 

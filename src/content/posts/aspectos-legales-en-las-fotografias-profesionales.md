@@ -1,6 +1,7 @@
 ---
 title: "Aspectos legales en las fotografías profesionales"
 date: 2023-03-28
+category: Derecho digital|Propiedad Intelectual
 author: Type of Legal
 ---
 

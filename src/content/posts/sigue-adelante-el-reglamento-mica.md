@@ -1,6 +1,7 @@
 ---
 title: "Europa acepta el Reglamento MiCA"
 date: 2022-03-10
+category: Derecho digital
 author: Type of Legal
 ---
 
