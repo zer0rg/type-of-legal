@@ -3,6 +3,7 @@ title: "La Inteligencia Artificial en la UE: Un Avance Significativo hacia la Re
 date: 2023-12-29
 category: Derecho digital|Propiedad Intelectual|Protección de datos
 author: Type of Legal
+image: la-inteligencia-artificial-en-la-ue-un-avance-significativo-hacia-la-regulacion.webp
 ---
 
 El 8 de diciembre se convirtió en una fecha histórica para la regulación de la Inteligencia Artificial (IA) en la Unión Europea. Después de maratonianas negociaciones que se prolongaron por más de 36 horas, el Parlamento Europeo y el Consejo de la UE alcanzaron [un acuerdo preliminar](https://www.europarl.europa.eu/news/es/headlines/society/20230601STO93804/ley-de-ia-de-la-ue-primera-normativa-sobre-inteligencia-artificial) sobre las normativas de IA. Aunque el texto definitivo todavía está en proceso de redacción, este acuerdo inicial señala un paso importante en el objetivo de la UE de ser líder en la formulación de políticas para la IA. Esta evolución es particularmente relevante en una época donde la IA no solo es una palabra de moda, sino una realidad que está remodelando cómo vivimos, trabajamos y jugamos. Desde el asistente de voz en nuestro teléfono hasta algoritmos que toman decisiones de vida o muerte en la medicina, la IA está en todas partes. Por ello, la necesidad de un marco regulatorio robusto y bien pensado nunca ha sido tan crítica. **Un Vistazo a los Principales Detalles**

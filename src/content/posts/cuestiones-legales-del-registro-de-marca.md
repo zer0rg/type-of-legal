@@ -3,6 +3,7 @@ title: "Cuestiones legales del registro de marca"
 date: 2021-09-22
 category: Dominios y marcas
 author: Type of Legal
+image: cuestiones-legales-del-registro-de-marca.webp
 ---
 
 Si estás en proceso de creación de tu negocio o tienes un servicio que ofrecer, es fundamental que protejas todos tus intangibles antes de lanzarlo al mercado.

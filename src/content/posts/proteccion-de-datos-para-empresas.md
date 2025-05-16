@@ -3,6 +3,7 @@ title: "Protección de datos para empresas"
 date: 2022-01-25
 category: Protección de datos
 author: Type of Legal
+image: proteccion-de-datos-para-empresas.webp
 ---
 
 Seguramente hayas oído que toda empresa o actividad económica en la que se traten datos personales está obligada al cumplimiento de las obligaciones establecidas por la normativa europea y española de protección de datos. Pero ¿qué quiere decir esto exactamente?

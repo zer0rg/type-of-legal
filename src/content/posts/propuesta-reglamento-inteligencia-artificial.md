@@ -3,6 +3,7 @@ title: "Propuesta reglamento inteligencia artificial"
 date: 2021-11-17
 category: Protección de datos
 author: Type of Legal
+image: propuesta-reglamento-inteligencia-artificial.webp
 ---
 
 **La propuesta del reglamento europeo sobre robótica e inteligencia artificial**

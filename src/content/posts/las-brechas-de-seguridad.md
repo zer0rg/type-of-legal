@@ -3,6 +3,7 @@ title: "Las brechas de seguridad"
 date: 2021-09-13
 category: Protección de datos
 author: Type of Legal
+image: las-brechas-de-seguridad.webp
 ---
 
 **Definición brecha de seguridad**

@@ -3,6 +3,7 @@ title: "Las obras por encargo"
 date: 2021-10-20
 category: Propiedad Intelectual
 author: Type of Legal
+image: las-obras-por-encargo.webp
 ---
 
 Un encargo de obra es aquel mediante el cual una persona física o jurídica encarga a otra la realización de una determinada obra artística bien para su disfrute personal o bien para ejercer derechos de explotación sobre ella.

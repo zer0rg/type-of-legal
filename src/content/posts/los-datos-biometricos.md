@@ -3,6 +3,7 @@ title: "Los datos biométricos"
 date: 2021-10-27
 category: Protección de datos
 author: Type of Legal
+image: los-datos-biometricos.webp
 ---
 
 Con la llegada de los recientes métodos de identificación en el mercado laboral parece que ha llegado a primera línea la preocupación por el tratamiento basado en características físicas.

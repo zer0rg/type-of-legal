@@ -3,6 +3,7 @@ title: "Bases legales para sorteos o concursos online"
 date: 2022-07-25
 category: Protección de datos
 author: Type of Legal
+image: bases-legales-para-sorteos-o-concursos-online.webp
 ---
 
 El mundo de los negocios online ha crecido mucho en los últimos años y son muchos los que han aprovechado Internet para labrarse un futuro. Si eres uno de esos, ya podemos decirte que has tenido una gran idea porque la red es de fácil acceso para muchos usuarios y permite una gran agilidad a la hora de realizar operaciones. Sin embargo, a la hora de trabajar online, nada puede quedar al azar. Todo debe estar perfectamente controlado y diseñado para cumplir con la legislación vigente. En caso de que no sea así, pueden aparecer graves problemas que puedan dar al traste con el volumen de negocio y prestigio de la entidad. Para promocionar tu negocio online, quizás hayas pensado en realizar algunas promociones que favorecen a tus clientes y tu marca, pero hay que tener cuidado. Es por esta razón que vamos a centrarnos en las **bases legales para sorteos o concursos online**. ¡Haz las cosas bien y olvídate de problemas!

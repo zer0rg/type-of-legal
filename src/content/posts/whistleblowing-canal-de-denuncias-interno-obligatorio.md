@@ -3,6 +3,7 @@ title: "Whistleblowing: canal de denuncias interno obligatorio"
 date: 2022-04-19
 category: Protección de datos
 author: Type of Legal
+image: whistleblowing-canal-de-denuncias-interno-obligatorio.webp
 ---
 
 La [Directiva (UE) 2019/1937 de 23 de octubre de 2019](https://www.boe.es/doue/2019/305/L00017-00056.pdf), del Parlamento Europeo y del Consejo, relativa a la protección de las personas que informen sobre infracciones del Derecho de la Unión, también conocida como **Directiva Whistleblowing**, entró en vigor el 17 de diciembre de 2019.

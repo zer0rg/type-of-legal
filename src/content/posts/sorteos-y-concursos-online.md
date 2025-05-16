@@ -3,6 +3,7 @@ title: "Sorteos y concursos online"
 date: 2021-09-23
 category: Derecho digital
 author: Type of Legal
+image: sorteos-y-concursos-online.webp
 ---
 
 Sin duda una de las campañas de marketing digital de más éxito en los últimos tiempos, es la realización de sorteos o concursos en internet.

@@ -3,6 +3,7 @@ title: "Legalidad de los e-sports"
 date: 2021-10-13
 category: Derecho digital|Propiedad Intelectual
 author: Type of Legal
+image: legalidad-de-los-esports.webp
 ---
 
 Uno de los fenómenos con mayor crecimiento en los últimos años es, sin duda, el de los deportes electrónicos o esports. Estas competiciones de videojuegos han profesionalizando un sector que hace tiempo dejó de ser un juego para convertirse en un modelo de negocio que nueve millones de euros en todo el mundo.

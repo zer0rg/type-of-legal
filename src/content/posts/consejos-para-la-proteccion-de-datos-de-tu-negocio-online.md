@@ -3,6 +3,7 @@ title: "Consejos para la protección de datos de tu negocio online"
 date: 2022-08-22
 category: Protección de datos
 author: Type of Legal
+image: consejos-para-la-proteccion-de-datos-de-tu-negocio-online.webp
 ---
 
 La protección de datos es una de las materias de más importancia de cara a un negocio online. Es fundamental mantener protegidos tus datos y los de tus clientes, ya no solo por lo que puede suponer una filtración de cara a la imagen de la empresa, sino que el negocio o la entidad puede verse envuelta en problemas, ya que la regulación con respecto a la protección de datos es cada vez más exigente. Además, ante un incumplimiento, las multas económicas pueden llegar a ser muy contundentes, trastocando de manera grave el futuro de tu negocio. Por lo tanto, lo mejor es que tu empresa esté completamente adecuada a lo exigido en esta materia. Aunque lo mejor es acudir a verdaderos especialistas, queremos dejarte unos **consejos para la protección de datos de tu negocio online**. ¿Quieres conocerlos?

@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import MailIcon from './icons/MailIcon.astro';
 import MenuIcon from './icons/MenuIcon.astro';
 ---
@@ -6,6 +7,7 @@ import MenuIcon from './icons/MenuIcon.astro';
 <header>
     <nav id="navbar">
         <div class="navbar-left-section">
+
             <img src="https://typeoflegal.com/wp-content/uploads/2023/06/TypeofLegalAbogados.webp" alt="Type Of Legal Logo" srcset="">
             <div class="navbar-buttons">
                 <a href="/#banner" class="navbar-button">INICIO</a>
@@ -253,6 +255,7 @@ import MenuIcon from './icons/MenuIcon.astro';
         #navbar .navbar-left-section .navbar-buttons{
             display: none ;
         }
+
         .menu-button{
             display: flex !important;
         }
@@ -264,6 +267,8 @@ import MenuIcon from './icons/MenuIcon.astro';
     }
 
     @media (max-width: 590px) {
+
+     
     #navbar .navbar-right-section .mail-button{
         display: none !important; 
         }

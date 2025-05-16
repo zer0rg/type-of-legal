@@ -3,6 +3,7 @@ title: "Nueva directiva de derechos de autor"
 date: 2021-12-16
 category: Propiedad Intelectual
 author: Type of Legal
+image: nueva-directa-de-derechos-de-autor.webp
 ---
 
 El pasado 2 de noviembre se aprobaba, con vigencia desde el 4 de noviembre de 2021, el Real Decreto-ley 24/2021, de 2 de noviembre, de transposición de directivas de la Unión Europea que incluye, entre otras, la transposición de la directiva de Derechos de Autor y Derechos Afines en el Mercado Digital Único, y para la mejora y modernización de las normas de protección de los consumidores de la Unión Europea y del régimen sancionador en materia de consumo.

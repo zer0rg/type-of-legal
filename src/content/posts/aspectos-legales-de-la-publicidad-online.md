@@ -3,6 +3,7 @@ title: "Aspectos legales de la publicidad online"
 date: 2021-09-20
 category: Derecho digital
 author: Type of Legal
+image: aspectos-legales-de-la-publicidad-online.webp
 ---
 
 Las campañas de publicidad online suponen una estrategia de venta esencial para el éxito de cualquier producto o servicio. De hecho, a raíz de la pandemia, los departamentos de marketing han concentrado su estrategia en internet en donde la interacción con el consumidor es mayor y efectiva, permitiendo a las empresas adaptarse a los gustos del público.

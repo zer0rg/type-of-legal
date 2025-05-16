@@ -3,6 +3,7 @@ title: "Como afectan los derechos de autor en Twitch"
 date: 2021-10-14
 category: Propiedad Intelectual
 author: Type of Legal
+image: como-afectan-los-derechos-de-autor-en-twitch.webp
 ---
 
 Es evidente que la plataforma de streaming Twitch a día de hoy es un éxito que ha cambiado la forma de consumir el contenido en la red. Su diferenciación la encontramos en el directo y la interacción en tiempo real, siendo común la utilización de material audiovisual de terceros lo cual lleva a la plataforma a importantes quebraderos de cabeza.

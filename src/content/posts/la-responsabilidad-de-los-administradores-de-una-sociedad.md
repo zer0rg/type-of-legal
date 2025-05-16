@@ -3,6 +3,7 @@ title: "La responsabilidad de los administradores de una sociedad"
 date: 2021-10-06
 category: Derecho mercantil
 author: Type of Legal
+image: la-responsabilidad-de-los-administradores-de-una-sociedad.webp
 ---
 
 En el presente artículo vamos a tratar los aspectos más esenciales respecto a la responsabilidad de los administradores de una sociedad, tanto en el ámbito mercantil, fiscal, laboral y penal.

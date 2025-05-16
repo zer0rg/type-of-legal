@@ -3,6 +3,7 @@ title: "Evaluación de impacto en la protección de datos personales"
 date: 2021-10-19
 category: Protección de datos
 author: Type of Legal
+image: evaluacion-de-impacto-en-la-proteccion-de-datos-personales.webp
 ---
 
 Cuando una empresa está funcionando con procesos sin adecuar a la normativa de protección de datos es recomendable realizar una Evaluación de Impacto, también llamada PIA (Data Protection Impact Assesment) la cual llega a suponer un proceso por el cual se evalúa el tratamiento de datos personales que usa una empresa y permite identificar las medidas de seguridad que sería necesarias para poder eliminar los potenciales riesgos.

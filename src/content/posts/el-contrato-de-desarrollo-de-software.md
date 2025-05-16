@@ -3,6 +3,7 @@ title: "El contrato de desarrollo de software"
 date: 2021-09-02
 category: Derecho digital
 author: Type of Legal
+image: el-contrato-de-desarrollo-de-software.webp
 ---
 
 Cuando hablamos con los clientes respecto a las necesidades legales que requiere su nuevo proyecto, es muy común que ya hayan empezado la preparación o desarrollo del mismo sin haber tenido en cuenta tal aspecto. De hecho, en los proyectos con proyección online, no es que no haya un trabajo legal iniciado, sino que el trabajo dedicado a la parte técnica es probable que esté en un estado muy avanzado.

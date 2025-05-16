@@ -3,6 +3,7 @@ title: "Evaluación de impacto en la protección de datos"
 date: 2022-04-26
 category: Protección de datos
 author: Type of Legal
+image: evaluacion-de-impacto-en-la-proteccion-de-datos.webp
 ---
 
 Como ya te contamos en [Evaluación de impacto en la protección de datos](https://typeoflegal.com/evaluacion-de-impacto-en-la-proteccion-de-datos-personales/ "Evaluación de impacto en la protección de datos") entre las novedades introducidas por el Reglamento General de Protección de Datos (RGPD) se encuentra la realización del proceso de Evaluación de Impacto en la Protección de Datos (EIPD).

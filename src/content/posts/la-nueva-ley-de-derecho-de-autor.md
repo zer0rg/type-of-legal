@@ -3,6 +3,7 @@ title: "La nueva ley de derecho de autor"
 date: 2021-09-08
 category: Propiedad Intelectual
 author: Type of Legal
+image: la-nueva-ley-de-derecho-de-autor.webp
 ---
 
 Llevamos unos cuantos años viendo como el sector legal no terminaba de dar un salto definitivo en la adaptación de la normativa derechos de autor a las nuevas tecnologías. La sensación que había era que el texto parecía funcionar en muchos sentidos con el mercado actual pero que había que introducir mejoras.

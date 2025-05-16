@@ -3,6 +3,7 @@ title: "Consumo busca prohibir las reseñas falsas en Google"
 date: 2022-01-11
 category: Derecho digital
 author: Type of Legal
+image: consumo-busca-prohibir-las-resenas-falsas-en-google.webp
 ---
 
 Seguramente antes de decidirte por un restaurante, un producto o un alojamiento en concreto has buscado en Google reseñas sobre el producto o servicio que te ayuden en la toma de la decisión final. Nuestros hábitos de consumo se ven ampliamente influenciados por las opiniones de otros usuarios. De hecho, se ha demostrado que casi el 90% de los consumidores online deciden su compra influenciados por la opinión previa de otros usuarios. Esta nueva práctica, lleva a que los usuarios puedan efectuar sus compras con mayor información, pero también al nacimiento de reseñas falsas que puedan acarrear consecuencias negativas para empresas y consumidores. Por ejemplo, con la inclusión de reseñas falsas o pagadas por el fabricante que insten a la compra de productos o, por el contrario, reseñas falsas publicadas por otras empresas en la búsqueda del perjuicio al competidor.

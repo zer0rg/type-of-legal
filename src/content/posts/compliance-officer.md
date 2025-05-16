@@ -3,6 +3,7 @@ title: "Compliance Officer"
 date: 2021-09-14
 category: Derecho digital
 author: Type of Legal
+image: compliance-officer.webp
 ---
 
 **Compliance officer qué es**

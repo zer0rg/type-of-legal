@@ -3,6 +3,7 @@ title: "Phantom Shares, la alternativa a las Stock Options."
 date: 2022-04-28
 category: Derecho mercantil
 author: Type of Legal
+image: phantom-shares-la-alternativa-a-las-stock-options.webp
 ---
 
 Es común que veamos en las empresas como existen dos tipos de sistemas de retribución variable pero que a primera vista puedan confundirse: las llamadas Stock Options y Phantom Shares.

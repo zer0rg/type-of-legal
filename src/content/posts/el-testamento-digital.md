@@ -3,6 +3,7 @@ title: "El Testamento Digital"
 date: 2021-12-23
 category: Derecho digital
 author: Type of Legal
+image: el-testamento-digital.webp
 ---
 
 Si gran parte de todas las tareas que hacemos hoy en día es mediante internet, es normal que también todos los trámites o procesos en la vida real tiendan a obtener su vía online, con el objetivo de agilizar o mejorar su servicio. Es el caso que buscamos con el llamado **Testamento Digital,** que no es otra cosa que garantizar la voluntad de un individuo en la red y dicha voluntad disponga de las mismas garantías que el testamento notarial. 

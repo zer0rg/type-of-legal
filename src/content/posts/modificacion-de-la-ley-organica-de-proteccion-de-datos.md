@@ -3,6 +3,7 @@ title: "Modificación de la Ley Orgánica de Protección de Datos"
 date: 2023-06-01
 category: Protección de datos
 author: Type of Legal
+image: modificacion-de-la-ley-organica-de-proteccion-de-datos.webp
 ---
 
 El pasado 9 de mayo de 2023 se publicó en el BOE la modificación de la actual ley reguladora de la protección de datos en España,  [Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (“LOPDGDD”)](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673 "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (“LOPDGDD”)"), con el objetivo de modernizar y agilizar los procedimientos ante la Agencia Española de Protección de Datos (“AEPD”) y su capacidad de respuesta a las reclamaciones de los ciudadanos. En el presente artículo, te contamos las principales novedades introducidas por la reciente modificación:

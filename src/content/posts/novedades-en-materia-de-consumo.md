@@ -3,6 +3,7 @@ title: "Novedades en materia de consumo"
 date: 2022-01-07
 category: Derecho digital
 author: Type of Legal
+image: novedades-en-materia-de-consumo.webp
 ---
 
 El pasado 27 de abril de 2021 se aprobó por el Consejo de Ministros una modificación de la normativa de consumo, en concreto el **Real Decreto 7/2021** que incorpora importantes novedades respecto a los derechos de consumidores y usuarios.

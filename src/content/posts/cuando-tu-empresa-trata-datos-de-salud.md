@@ -3,6 +3,7 @@ title: "Cuando tu empresa trata datos de salud"
 date: 2022-04-14
 category: Protección de datos
 author: Type of Legal
+image: cuando-tu-empresa-trata-datos-de-salud.webp
 ---
 
 En materia de protección de datos, si una empresa trata datos de salud de sus pacientes es desde luego motivo para tratar de una manera más especial los procesos a implementar en materia de protección de datos.  Y es que, para la realización de determinados tratamientos de datos, en la obtención del consentimiento libre, específico, informado e inequívoco de los interesados y si es en el ámbito de la **salud** los requisitos para tratar los datos son mayores.   Para la orientación de las empresas que traten este tipo de datos vamos a mencionar las principales recomendaciones

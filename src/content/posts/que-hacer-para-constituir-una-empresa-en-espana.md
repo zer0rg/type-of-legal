@@ -3,6 +3,7 @@ title: "¿Qué hacer para constituir una empresa en España?"
 date: 2022-02-08
 category: Derecho mercantil
 author: Type of Legal
+image: que-hacer-para-constituir-una-empresa-en-espana.webp
 ---
 
 **¿Qué hacer para constituir una empresa en España?**

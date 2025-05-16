@@ -3,6 +3,7 @@ title: "Qué son los NFT y cómo funcionan"
 date: 2022-02-15
 category: Derecho digital|Propiedad Intelectual
 author: Type of Legal
+image: que-son-los-nft-y-como-funcionan.webp
 ---
 
 **A grandes rasgos los NFTs o Non Fungible Tokens,** por sus siglas en inglés, podrían definirse como la representación digital de un activo, único e irrepetible que existe gracias a la tecnología **Blockchain****.** Si bien los NFT se encuentran en su pico de popularidad los conceptos alrededor de este nuevo activo pueden parecer complicados. En el presente artículo trataremos de exponer del modo más sencillo posible que es exactamente un NFT y su funcionamiento.

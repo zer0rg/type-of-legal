@@ -3,6 +3,7 @@ title: "El pacto de socios"
 date: 2021-09-29
 category: Derecho mercantil
 author: Type of Legal
+image: el-pacto-de-socios.webp
 ---
 
 Un pacto de socios es un contrato privado, independiente al de la escritura de constitución de la sociedad y de los estatutos sociales, en virtud del cual los socios de cualquier sociedad se comprometen a fijar las reglas de actuación que seguirá en la empresa en el caso de que la actividad de la compañía se encuentre en riesgo. En este documento también se describen minuciosamente los parámetros que afectarán al desarrollo de la actividad y el papel que tendrá dentro de ella cada fundador.

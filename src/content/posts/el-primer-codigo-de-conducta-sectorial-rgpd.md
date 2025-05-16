@@ -3,6 +3,7 @@ title: "El primer código de conducta sectorial (RGPD)"
 date: 2022-03-01
 category: Protección de datos
 author: Type of Legal
+image: el-primer-codigo-de-conducta-sectorial-rgpd.webp
 ---
 
 El pasado 25 de febrero de 2022 la Agencia Española de Protección de Datos (AEPD) presentó una importante novedad, el **Código de Conducta** para la regulación del tratamiento de datos personales en el sector de la Farmaindustria, regulando así los aspectos que afectan a los ensayos clínicos, farmacovigilancia y otras investigaciones clínicas.

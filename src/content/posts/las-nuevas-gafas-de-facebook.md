@@ -3,6 +3,7 @@ title: "Las nuevas gafas de Facebook"
 date: 2021-10-07
 category: Protección de datos
 author: Type of Legal
+image: las-nuevas-gafas-de-facebook.webp
 ---
 
 El lanzamiento de unas gafas fruto de la colaboración entre Ray Ban y Facebook se ha convertido en uno de los productos tecnológicos más relevantes del año. Estas gafas incorporan cámaras que permiten a sus usuarios grabar lo que se encuentran a su paso. Teniendo en cuenta esta funcionalidad, la polémica desde el punto de vista de la protección de datos está servida… ¿es legal grabar a las personas por la calle? ¿invaden su privacidad? Analicemos sus implicaciones.

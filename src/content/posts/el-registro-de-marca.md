@@ -3,6 +3,7 @@ title: "El Registro de marca"
 date: 2021-12-21
 category: Dominios y marcas
 author: Type of Legal
+image: el-registro-de-marca.webp
 ---
 
 Una marca es todo aquel signo que distingue los productos o servicios de una empresa en el mercado.  Su función principal es, por lo tanto, la de diferenciar e individualizar en el mercado unos productos o servicios de otros productos o servicios idénticos o similares ofrecidos por terceros.

@@ -3,6 +3,7 @@ title: "Auditoría protección de datos"
 date: 2023-01-03
 category: Protección de datos
 author: Type of Legal
+image: auditoria-de-proteccion-de-datos.webp
 ---
 
 La auditoría de protección de datos personales es un proceso que tiene como objetivo comprobar que dentro de una empresa se encuentran actualizados y adecuados los procesos internos de seguridad relacionados con el tratamiento de datos personales. La realización de este tipo de auditorías es altamente recomendable (la media establecida suele ser cada 2 años) para confirmar que los datos gestionados por la empresa son correctos y van alineados con políticas y medidas de seguridad proporcionales.

@@ -3,6 +3,7 @@ title: "La AEPD abre expediente al Tribunal Constitucional"
 date: 2021-11-29
 category: Protección de datos
 author: Type of Legal
+image: la-aepd-abre-expediente-al-tribunal-constitucional.webp
 ---
 
 El mes pasado la Agencia Española de Protección de Datos (AEPD) abrió un expediente sancionador al Tribunal Constitucional por una posible captación excesiva de datos personales en sus instalaciones.  En concreto se ha indicado que el Tribunal Constitucional dispone en sus accesos a las instalaciones de controles de temperatura a través de un sistema de identificación biométrico, permitiendo que cualquier cámara identifique a la persona que accede a las instalaciones. Una medida que de primeras parece excesiva de cara a controlar a las personas que acceden al recinto.

@@ -3,6 +3,7 @@ title: "El contrato de cesión de derechos de autor"
 date: 2022-03-17
 category: Propiedad Intelectual
 author: Type of Legal
+image: el-contrato-de-cesion-de-derechos-de-autor.webp
 ---
 
 Recientemente hemos visto en los medios de comunicación como se ha acusado a la cantante británica Dua Lipa de un posible plagio por la canción “Leviatating” siendo esta muy similar a un antiguo tema de Arktial Sound System, en concreto la similitud se encuentra muy evidente en el propio “hook” o gancho de la canción. Resulta curioso como un conflicto de este tipo ha podido ocurrir en las altas esferas de la industria musical puesto que es muy común en el mundo del pop hacer versiones de temas clásicos y adaptarlos a las modas del momento. Una formula que no falla, y que permite a artistas modernos y clásicos promocionar su unión y rememorar esos hits tan añorados que posiblemente uno tendría en el olvido. Por tanto, estamos ante un caso de plagio que puede hacer mucho ruido dado el grado de fama del artista infractor, sin embargo, y sin entrar en el análisis del plagio y sus requisitos, esta situación se podría haber evitado de una forma bastante sencilla y realmente muy utilizada en la industria: solicitar la cesión de los derechos de autor.

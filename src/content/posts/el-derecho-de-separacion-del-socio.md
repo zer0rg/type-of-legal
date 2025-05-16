@@ -3,6 +3,7 @@ title: "El derecho de separación del socio"
 date: 2021-10-18
 category: Derecho mercantil
 author: Type of Legal
+image: el-derecho-de-separacion-del-socio.webp
 ---
 
 Cuando un socio quiere abandonar una empresa la regla general es que venda sus participaciones o acciones. Sin embargo, puede encontrarse que el resto de socios no quieran comprar sus participaciones o no se encuentre un tercer comprador.

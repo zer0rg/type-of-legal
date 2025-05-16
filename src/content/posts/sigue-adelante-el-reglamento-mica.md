@@ -3,6 +3,7 @@ title: "Europa acepta el Reglamento MiCA"
 date: 2022-03-10
 category: Derecho digital
 author: Type of Legal
+image: sigue-adelante-el-reglamento-mica.webp
 ---
 
 En el día de ayer Europa votó el esperado [Reglamento MiCA.](https://typeoflegal.com/una-regulacion-para-las-criptomonedas/) Un Reglamento que pretende regular el mercado de criptoactivos pero que en los últimos momentos parecía que iba a recibir un importante bloqueo o limitación con la Prueba de Trabajo (POW), que recordemos se trata de un protocolo de consenso que preocupaba a legisladores europeos debido al alto consumo que implica.

@@ -3,6 +3,7 @@ title: "Estrategia comercial y RGPD"
 date: 2021-09-21
 category: Protección de datos
 author: Type of Legal
+image: estrategia-comercial-y-rgpd.webp
 ---
 
 Con la entrada en vigor de la normativa de protección de datos ( Reglamento 2016/679 del parlamento europeo y del consejo de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos “**RGPD**”) las estrategias comerciales iban a tener que realizar  importantes cambios a la hora de realizar campañas de marketing. Ya no valía hacer publicidad sin tener en cuenta las decisiones de los usuarios, por lo que la vía libre que disponían los departamentos de marketing se vio obligada a realizar una adaptación a los nuevos tiempos.

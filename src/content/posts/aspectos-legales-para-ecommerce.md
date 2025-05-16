@@ -3,6 +3,7 @@ title: "Aspectos legales para ecommerce"
 date: 2021-10-04
 category: Derecho digital
 author: Type of Legal
+image: aspectos-legales-para-ecommerce.webp
 ---
 
 El comercio electrónico o ecommerce ha experimentado un fuerte incremento en los últimos años. El auge de las compras por internet ha hecho nacer multitud de negocios que cuentan con este canal de ventas como método complementario al establecimiento físico, o que incluso han establecido el entorno digital como su único canal de ventas. Pero, ¿Qué es exactamente un ecommerce desde el punto de vista normativo?

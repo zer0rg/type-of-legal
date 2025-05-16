@@ -3,6 +3,7 @@ title: "Protección legal de los secretos empresariales"
 date: 2021-11-18
 category: Protección de datos
 author: Type of Legal
+image: proteccion-legal-de-los-secretos-empresariales.webp
 ---
 
 **¿Qué es un secreto empresarial?**

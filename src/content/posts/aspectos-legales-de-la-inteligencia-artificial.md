@@ -3,6 +3,7 @@ title: "Aspectos legales de la Inteligencia Artificial"
 date: 2023-10-26
 category: Derecho digital
 author: Type of Legal
+image: aspectos-legales-de-la-inteligencia-artificial.webp
 ---
 
 La Unión Europea se encuentra a la vanguardia de la regulación de la IA y ha propuesto un [Reglamento Europeo sobre Inteligencia Artificial](https://eur-lex.europa.eu/legal-content/ES/ALL/?uri=CELEX%3A52021PC0206) para abordar los desafíos relacionados con la complejidad, la imprevisibilidad y el comportamiento autónomo de ciertos sistemas de IA. Esta propuesta busca establecer normas armonizadas en la Unión Europea y se aplica a proveedores que comercialicen sistemas de IA en la UE, independientemente de su ubicación, así como a usuarios en la UE y a proveedores y usuarios en países fuera de la UE cuando la información generada se utilice en territorio europeo. La propuesta de Reglamento también ofrece una definición de la IA que pretende mantener su relevancia a lo largo del tiempo, definiéndola como "el software que se desarrolla empleando una o varias de las técnicas y estrategias que figuran en el anexo I del Reglamento y que puede generar información de salida, como contenidos, predicciones, recomendaciones o decisiones, para un conjunto definido de objetivos humanos". El Reglamento Europeo de Inteligencia Artificial aborda varias cuestiones clave, entre las que se incluyen:

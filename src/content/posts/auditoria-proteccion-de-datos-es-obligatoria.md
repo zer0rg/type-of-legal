@@ -3,6 +3,7 @@ title: "Auditoría protección de datos, ¿es obligatoria?"
 date: 2022-02-24
 category: Protección de datos
 author: Type of Legal
+image: auditoria-proteccion-de-datos-es-obligatoria.webp
 ---
 
 La realización de una auditoría de protección de datos es un instrumento que nos permite conocer de manera profunda y eficaz la tipología, volumen y flujo de datos que se gestionan dentro de una empresa u organismo, la existencia o no de un adecuado tratamiento de los mismos y las medidas de seguridad adoptadas en el seno de la organización para garantizar el cumplimiento de la normativa. Mediante una auditoría de protección de datos se evalúan los tratamientos de datos de carácter personal llevados a cabo por una determinada entidad, responsable de su tratamiento, para determinar su grado de adecuación a la normativa.

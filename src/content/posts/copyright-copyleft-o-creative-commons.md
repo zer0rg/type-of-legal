@@ -3,6 +3,7 @@ title: "Copyright, Copyleft o Creative Commons"
 date: 2021-12-29
 category: Propiedad Intelectual
 author: Type of Legal
+image: copyright-copyleft-o-creative-commons.webp
 ---
 
 Hoy en día no hay duda de que internet supone la fuente de conocimiento universal por defecto, es decir, prácticamente todo nuestro conocimiento se encuentra volcado en la red. Una gran ventaja de nuestros días, pero no exenta de controversias. Y es que el uso que se hace de la información que encontramos en la red resulta ágil y fácil de copiar o compartir, siendo ello un arma de doble filo para los creadores de contenido. Por un lado, es fácil hacer llegar a la información a cualquier persona, pero por otro lado es fácilmente copiable y vulnerable la información original (ya sean libros, noticias o cualquier obra protegida por derechos de propiedad intelectual). También vimos en Type of Legal cómo [proteger la propiedad intelectual en internet.](https://typeoflegal.com/proteger-la-propiedad-intelectual-en-internet/) Aunque a veces parezca un problema ajeno a la sociedad, y no parezca tener una solución a corto plazo, existe una forma legal para poder proteger a los autores, los derechos de autor. Unos derechos que función de la voluntad del autor, su contenido va a ser ofrecido a terceros con una serie de limitaciones, advertencias o requisitos. Existen una serie de licencias que permiten a los usuarios conocer los derechos de las obras que circulan por la red para comprobar sus límites en el uso. De forma general existen 3 tipos de licencias:

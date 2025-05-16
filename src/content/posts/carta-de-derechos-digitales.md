@@ -3,6 +3,7 @@ title: "Carta de derechos digitales"
 date: 2021-11-04
 category: Derecho digital
 author: Type of Legal
+image: carta-de-derechos-digitales.webp
 ---
 
 **La carta de derechos digitales en España**

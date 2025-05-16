@@ -3,6 +3,7 @@ title: "¿Qué son las stock options?"
 date: 2021-11-11
 category: Derecho mercantil
 author: Type of Legal
+image: que-son-las-stock-options.webp
 ---
 
 ¿**Qué son las stock options?**

@@ -3,6 +3,7 @@ title: "Proteger la propiedad intelectual en internet"
 date: 2021-11-09
 category: Propiedad Intelectual
 author: Type of Legal
+image: proteger-la-propiedad-intelectual-en-internet.webp
 ---
 
 Internet ha creado enormes posibilidades a la hora de compartir y dar a conocer el trabajo de miles de artistas. También se ha constituido como uno de los principales canales de visibilidad y ventas para empresas y emprendedores.

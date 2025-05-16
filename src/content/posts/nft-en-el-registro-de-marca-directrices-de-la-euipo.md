@@ -3,6 +3,7 @@ title: "NFT en el registro de marca: Directrices de la EUIPO"
 date: 2022-11-30
 category: Derecho digital|Dominios y marcas|Propiedad Intelectual
 author: Type of Legal
+image: nft-en-el-registro-de-marca-directrices-de-la-euipo.webp
 ---
 
 El número de solicitudes de marca para NFT y bienes y servicios relacionados con el metaverso se ha incrementado exponencialmente en un contexto de incertidumbre jurídica sobre la verdadera naturaleza de los mismos. Con el objetivo de establecer las bases para afrontar los retos legales de su registro, la Oficina Europea de Propiedad Intelectual, EUIPO,  ha publicado las directrices que regirán el registro de marcas de los llamados “bienes virtuales”, en concreto, de los tokens no fingibles o NFTs.

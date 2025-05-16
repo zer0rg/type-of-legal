@@ -3,6 +3,7 @@ title: "Sorteos internacionales"
 date: 2021-11-15
 category: Derecho digital
 author: Type of Legal
+image: sorteos-internacionales.webp
 ---
 
 La realización de sorteos a través de internet se ha convertido en una herramienta muy utilizada por diferentes empresas e influencers para impulsar su imagen y marca e incentivar que los usuarios del sitio web o red social conozcan sus productos.

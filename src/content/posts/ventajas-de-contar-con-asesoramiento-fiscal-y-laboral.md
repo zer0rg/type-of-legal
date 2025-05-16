@@ -3,6 +3,7 @@ title: "Ventajas de contar con asesoramiento fiscal y laboral"
 date: 2022-08-05
 category: Protección de datos
 author: Type of Legal
+image: ventajas-de-contar-con-asesoramiento-fiscal-y-laboral.webp
 ---
 
 Cuando se comienza con un nuevo negocio, son muchos los aspectos que hay que cuidar de cara a cumplir con la normativa legal vigente y que el funcionamiento del mismo sea correcto desde el primer momento. En el momento en el que inicias una nueva aventura en el ámbito laboral, en este caso dentro de lo online, automáticamente se generan determinadas obligaciones con las que hay que cumplir para que no haya ningún tipo de problema con respecto a la normativa legal vigente. Contar con el asesoramiento de profesionales puede ser la opción que necesitas, especialmente si no dispones de conocimientos específicos sobre la materia. En [Type of Legal](https://typeoflegal.com/) contamos con una amplia experiencia dentro del sector y queremos ponerla a tu servicio. Con nuestro [asesoramiento legal para Startups en Madrid](https://typeoflegal.com/asesoramiento-legal-startups-madrid/), tu negocio estará en las mejores manos. De momento, en esta publicación vamos a entrar de lleno en explicar las **ventajas de contar con asesoramiento fiscal y laboral**. ¿Quieres conocerlas? ¡Seguro que te interesan!

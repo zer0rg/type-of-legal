@@ -3,6 +3,7 @@ title: "Textos legales para web"
 date: 2021-11-25
 category: Protección de datos
 author: Type of Legal
+image: textos-legales-para-web.webp
 ---
 
 Toda empresa que cuente con una página web debe tener en cuenta la normativa que resulta de aplicación en el entorno digital.

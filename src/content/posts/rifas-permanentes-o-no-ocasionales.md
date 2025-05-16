@@ -3,6 +3,7 @@ title: "Rifas permanentes o no ocasionales"
 date: 2021-10-21
 category: Derecho digital
 author: Type of Legal
+image: rifas-permanentes-o-no-ocasionales.webp
 ---
 
 La organización de rifas puede resultar un mecanismo interesante a la hora de reunir fondos para sufragar eventos, obras de caridad o sorteos de productos. No obstante, su realización no es libre teniendo que ajustarse a unos requisitos legales que variarán dependiendo del tipo de rifa que se desee llevar a cabo. Atendiendo a su duración, las rifas pueden ser permanentes u ocasionales.

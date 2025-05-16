@@ -3,6 +3,7 @@ title: "Préstamos participativos"
 date: 2021-11-08
 category: Derecho mercantil
 author: Type of Legal
+image: prestamos-participativos.webp
 ---
 
 Los préstamos participativos son instrumentos financieros que, por sus características, se han convertido en una interesante opción en la búsqueda de financiación para las empresas, especialmente en aquellos casos en los que el negocio se encuentra en sus fases iniciales, como es el caso de los startups.

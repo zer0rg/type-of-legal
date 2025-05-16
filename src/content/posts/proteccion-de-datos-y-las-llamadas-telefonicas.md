@@ -3,6 +3,7 @@ title: "Protección de datos y las llamadas telefónicas"
 date: 2023-06-28
 category: Protección de datos
 author: Type of Legal
+image: proteccion-de-datos-y-las-llamadas-telefonicas.webp
 ---
 
 El Boletín Oficial del Estado ha publicado recientemente la [Circular de la Agencia Española de Protección de Datos](https://www.boe.es/boe/dias/2023/06/28/pdfs/BOE-A-2023-15071.pdf) (AEPD), la cual establece los criterios que regirán en relación a la protección de datos y las llamadas telefónicas, es decir, al derecho de los usuarios a no recibir llamadas no solicitadas. Esta medida, enmarcada en el artículo 66.1.b) de la [Ley 11/2022 General de Telecomunicaciones](https://www.boe.es/buscar/doc.php?id=BOE-A-2022-10757), entrará en vigor a partir del 29 de junio de este año. El objetivo principal de esta circular es aclarar las interpretaciones y proporcionar seguridad jurídica tanto a quienes realizan llamadas comerciales como a los usuarios que las reciben.

@@ -3,6 +3,7 @@ title: "RGPD para startups"
 date: 2021-09-30
 category: Protección de datos
 author: Type of Legal
+image: rgpd-para-startups.webp
 ---
 
 **Empresa startup, significado**

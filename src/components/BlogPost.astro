@@ -4,23 +4,24 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { title, date, author, category } = post.data;
+const { title, date, author, category, image } = post.data;
 const arrayCategories = category.split('|');
+console.log(image);
 ---
 
 <article class="blog-post" id={`blogPost-${post.slug}`} data-id={post.slug}>
     <a href={`/blog/${post.slug}`}>
-        <div class="img-container">
+        <div class="img-container" style={`background-image: url('/src/assets/posts/${image}');`}>
         </div>
         <div class="article-info">
             <h3>{title}</h3>
-        <p>{date.toLocaleDateString('es-ES', { dateStyle: 'long' })}</p>
-        <p>{author}</p>
-        <div class="categories">
+        <p class="date">{date.toLocaleDateString('es-ES', { dateStyle: 'long' })}</p>
+        <p class="author">{author}</p>
+        <div class="categories" aria-label="Categorías">
             {
                 arrayCategories.map((category: any) => {
                     return (
-                        <span class="category">{category}</span>
+                        <span class="category" aria-label={category}>{category}</span>
                     )
                 })
             }
@@ -76,7 +77,6 @@ a{
         animation-timeline: view();
         animation-range: entry 0;
         .img-container {
-            background-image: url('/src/assets/images/pexels---4059426.jpg');
             background-size: cover;
             
     width: 100%;

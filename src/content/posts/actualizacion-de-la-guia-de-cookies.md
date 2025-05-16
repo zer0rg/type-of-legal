@@ -3,6 +3,7 @@ title: "Actualización de la Guía de Cookies (AEPD)"
 date: 2023-07-11
 category: Protección de datos
 author: Type of Legal
+image: actualizacion-de-la-guia-de-cookies.webp
 ---
 
 La Agencia Española de Protección de Datos (AEPD) ha actualizado su Guía sobre el uso de las cookies para adaptarse a las nuevas Directrices 03/2022 del Comité Europeo de Protección de Datos (CEPD), que abordan los patrones engañosos. Esta versión actualizada de la Guía fue desarrollada por la Agencia con la participación de las asociaciones ADIGITAL, Anunciantes, AUTOCONTROL e IAB Spain, como se hizo anteriormente. En febrero de 2023, el Comité Europeo de Protección de Datos emitió las [Directrices 03/2022](https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-032022-deceptive-design-patterns-social-media_en) sobre patrones engañosos en las redes sociales. La Agencia ha integrado el enfoque del Comité Europeo en la nueva versión de la Guía, que establece que las opciones de aceptar o rechazar cookies deben ser claramente visibles y tener la misma importancia. No debe ser más difícil rechazar las cookies que aceptarlas. Además, la Guía proporciona ejemplos actualizados sobre cómo mostrar estas opciones, como el uso de colores, tamaños y ubicaciones específicas. Desde Type of Legal te aconsejamos como [abogados especialistas en derecho digital en Madrid](https://typeoflegal.com/abogados-especialistas-en-derecho-digital-madrid/ "Abogados especialistas en derecho digital Madrid"). Asimismo, se han realizado algunos cambios adicionales:

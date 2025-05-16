@@ -5,6 +5,33 @@ interface Props {
 	favicon?: string;
 }
 
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Type of Legal",
+  "url": "https://typeoflegal.com/",
+  "logo": "https://typeoflegal.com/logo.png",
+  "image": "https://typeoflegal.com/office-photo.jpg",
+  "description": "Abogados expertos en derecho digital, propiedad intelectual y nuevas tecnologías.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle de Otero 1",
+    "addressLocality": "Madrid",
+    "postalCode": "28028",
+    "addressCountry": "ES"
+  },
+  "telephone": "+34 644 56 32 54",
+  "email": "info@typeoflegal.com",
+  "areaServed": "España",
+  "sameAs": [
+    "https://www.facebook.com/typeoflegal",
+    "https://twitter.com/typeoflegal",
+    "https://www.linkedin.com/company/type-of-legal/"
+  ]
+};
+
+
+
 const { title } = Astro.props;
 ---
 <!doctype html>
@@ -27,6 +54,7 @@ const { title } = Astro.props;
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:title" content="Conócenos - Type of Legal">
 		<meta name="twitter:description" content="Abogados Nuevas Tecnologías - Somos abogados expertos en derecho digital, propiedad intelectual y nuevas tecnologías">
+		<script type="application/ld+json" set:html={JSON.stringify(schema)}></script>
 		<ClientRouter />
 	</head>
 	<body>

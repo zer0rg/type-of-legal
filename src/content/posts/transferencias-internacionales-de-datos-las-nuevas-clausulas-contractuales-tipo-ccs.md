@@ -3,6 +3,7 @@ title: "Transferencias internacionales de datos: las nuevas Cláusulas Contractu
 date: 2022-03-08
 category: Protección de datos
 author: Type of Legal
+image: transferencias-internacionales-de-datos-las-nuevas-clausulas-contractuales-tipo-ccs.webp
 ---
 
 Una transferencia internacional de datos consiste en un flujo de datos personales desde el territorio europeo a destinatarios establecidos en países fuera del Espacio Económico Europeo (los países de la Unión Europea más Liechtenstein, Islandia y Noruega).

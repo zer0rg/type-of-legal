@@ -3,6 +3,7 @@ title: "Phantom Shares"
 date: 2021-11-02
 category: Derecho mercantil
 author: Type of Legal
+image: phantom-shares.webp
 ---
 
 **¿Qué son las Phantom Shares?**

@@ -3,6 +3,7 @@ title: "Actuales requisitos para las transferencias internacionales de datos a E
 date: 2022-10-24
 category: Derecho digital|Protección de datos
 author: Type of Legal
+image: actuales-requisitos-para-las-transferencias-internacionales-de-datos-a-eeuu.webp
 ---
 
 Para poder llevar a cabo transferencias internacionales de datos, esto es, el envío o recepción de datos personales entre entidades dentro del territorio europeo y otras establecidas en países fuera del Espacio Económico Europeo, es necesario que el responsable o encargado de tratamiento que desee llevarlas a cabo, garantice que la transferencia tendrá lugar siguiendo lo dispuesto en el Reglamento General de Protección de Datos (RGPD). En esta publicación profundizaremos en los requisitos para las **transferencias internacionales de datos a EEUU.** Existen diferentes mecanismos establecidos por la Comisión Europea para garantizar el nivel adecuado de protección, que variarán dependiendo del territorio con el cual se lleve a cabo el flujo de datos.  Particularmente común es la existencia de flujo de datos entre el Europa y EEUU, pero ¿qué requisitos deben cumplir en la actualidad las transferencias internacionales de datos entre estos territorios?

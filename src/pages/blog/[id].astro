@@ -13,14 +13,14 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { title, date, author, category } = post.data;
+const { title, date, author, category , image} = post.data;
 const { Content } = await post.render();
 ---
 
 <Layout title={`${title} - Type of Legal`}>
     <Navbar/>
     <main>
-        <div class="post-header">
+        <div class="post-header"  style={`background-image: url('/src/assets/posts/${image}');`}>
             <div class="post-info">
                 <div class="post-info-content">
                     <h1 style="max-width: 850px;">{title}</h1>
@@ -62,7 +62,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: end;
-    background-image: url('/src/assets/images/pexels---4059426.jpg');
+
     width: 100%;
     background-size: cover;
     min-height: 40dvh;

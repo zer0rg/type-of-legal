@@ -3,6 +3,7 @@ title: "La protección de datos en el análisis de comportamiento"
 date: 2023-03-29
 category: Protección de datos
 author: Type of Legal
+image: la-proteccion-de-datos-en-el-analisis-de-comportamiento.webp
 ---
 
 En el contexto actual de la era digital, las técnicas UEBA (User and Entity Behavior Analytics) se han convertido en una herramienta esencial para empresas y organizaciones que buscan comprender el comportamiento de los usuarios y las entidades que interactúan con sus sistemas y servicios. A través del uso de técnicas de aprendizaje automático e inteligencia artificial, las soluciones UEBA permiten modelar el comportamiento de los usuarios y las entidades en función de los datos históricos, y predecir su comportamiento futuro. Esto ha permitido a las empresas mejorar la eficiencia de sus servicios y optimizar sus estrategias de marketing, pero también ha dado lugar a preocupaciones en torno al cumplimiento de la normativa de protección de datos.

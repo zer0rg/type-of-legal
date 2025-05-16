@@ -3,6 +3,7 @@ title: "La política de cookies"
 date: 2021-09-06
 category: Derecho digital
 author: Type of Legal
+image: la-politica-de-cookies.webp
 ---
 
 Cuando navegamos por internet y entramos en cualquier página web, es muy probable que nos encontremos con un banner o aviso que nos habla sobre el uso de las cookies y de cómo aceptarlas o desactivarlas. Pero, ¿qué son exactamente las cookies y qué consecuencias tiene su activación o desactivación?

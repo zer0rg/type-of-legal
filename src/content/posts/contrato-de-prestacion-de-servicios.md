@@ -3,6 +3,7 @@ title: "Contrato de prestación de servicios"
 date: 2021-10-05
 category: Derecho mercantil
 author: Type of Legal
+image: contrato-de-prestacion-de-servicios.webp
 ---
 
 El contrato de prestación de servicios consiste en un documento que incluye las condiciones acordadas entre las partes para la realización de un servicio, ya se por una persona jurídica (empresa) o física (autónomo).

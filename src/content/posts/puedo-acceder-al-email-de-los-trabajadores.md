@@ -3,6 +3,7 @@ title: "¿Puedo acceder al email de los trabajadores?"
 date: 2021-11-03
 category: Protección de datos
 author: Type of Legal
+image: puedo-acceder-al-email-de-los-trabajadores.webp
 ---
 
 Una de las herramientas de comunicación más utilizadas en las relaciones laborales es el correo electrónico.

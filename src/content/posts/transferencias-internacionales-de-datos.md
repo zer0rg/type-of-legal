@@ -3,6 +3,7 @@ title: "Transferencias internacionales de datos"
 date: 2021-10-28
 category: Protección de datos
 author: Type of Legal
+image: transferencias-internacionales-de-datos.webp
 ---
 
 Las transferencias internacionales de datos consisten en la transmisión de datos de carácter personal fuera del Espacio Económico Europeo, es decir, suponen un flujo de datos personales desde el territorio europeo a destinatarios establecidos en países fuera del Espacio Económico Europeo (los países de la Unión Europea más Liechtenstein, Islandia y Noruega).

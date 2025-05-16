@@ -3,6 +3,7 @@ title: "Control de Acceso"
 date: 2022-03-29
 category: Protección de datos
 author: Type of Legal
+image: control-de-acceso.webp
 ---
 
 Los sistemas o mecanismos de control de acceso son imprescindibles a la hora de proteger las instalaciones físicas e informáticas de toda empresa. En el presente artículo detallamos sus principales implicaciones a nivel de protección de datos.

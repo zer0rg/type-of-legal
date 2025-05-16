@@ -3,6 +3,7 @@ title: "El SIM swapping"
 date: 2021-10-26
 category: Derecho digital
 author: Type of Legal
+image: el-sim-swapping.webp
 ---
 
 En el presente artículo vamos a explicar de forma sencilla en qué consist eel método de SIM swapping, uno de los sistemas de estafa que más preocupa a día de hoy.

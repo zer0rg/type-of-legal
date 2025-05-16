@@ -3,6 +3,7 @@ title: "La Inteligencia Artificial y su regulación: primeros pasos"
 date: 2023-02-27
 category: Derecho digital|Propiedad Intelectual|Protección de datos
 author: Type of Legal
+image: la-inteligencia-artificial-y-su-regulacion-primeros-pasos.webp
 ---
 
 **El comienzo parte desde Europa**

@@ -3,6 +3,7 @@ title: "El Reglamento ePrivacy y las cookies"
 date: 2021-11-16
 category: Protección de datos
 author: Type of Legal
+image: el-reglamento-eprivacy-y-las-cookies.webp
 ---
 
 En los últimos tiempos se ha hablado mucho del Reglamento ePrivacy y de la nueva regulación de las cookies. En el presente artículo trataremos de aclarar a qué hacer referencia esta normativa.

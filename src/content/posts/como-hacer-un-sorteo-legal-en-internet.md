@@ -3,6 +3,7 @@ title: "Como hacer un sorteo legal en internet"
 date: 2022-02-01
 category: Derecho digital
 author: Type of Legal
+image: como-hacer-un-sorteo-legal-en-internet.webp
 ---
 
 Internet y, especialmente las redes sociales, se han convertido en una interesante herramienta para las marcas que buscan la promoción de sus productos o servicios a través de la realización de sorteos. Como te contamos en [Sorteos y concursos online](https://typeoflegal.com/asesoramiento-juridico-sobre-sorteos-y-concursos/ "Asesoramiento jurídico sobre sorteos y concursos") a diferencia de los concursos, en los que los ganadores son elegidos por un jurado o mediante votación, en un sorteo el ganador es elegido de forma aleatoria. Este mecanismo de promoción es muy sencillo: solamente se necesita una cuenta en una red social o una página web, un mecanismo aleatorio de selección de ganadores y todo listo… ¿Seguro? Lo cierto es que, además, resulta **necesario cumplir ciertos requisitos legales y fiscales** para que la celebración del sorteo resulte amparable en la legalidad vigente.

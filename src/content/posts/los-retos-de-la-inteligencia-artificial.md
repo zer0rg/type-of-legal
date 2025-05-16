@@ -3,6 +3,7 @@ title: "Los retos de la Inteligencia Artificial"
 date: 2023-05-29
 category: Derecho digital
 author: Type of Legal
+image: los-retos-de-la-inteligencia-artificial.webp
 ---
 
 La inteligencia artificial (IA) está revolucionando el campo legal al ofrecer nuevas oportunidades y desafíos. Para asegurar un uso ético y responsable de la IA en el ámbito legal, es crucial establecer medidas legales y regulatorias adecuadas. Estas medidas garantizan la transparencia, la imparcialidad y la protección de los derechos fundamentales. En este artículo, desde Type of Legal exploraremos algunas medidas clave que podrían implementarse para promover un uso responsable de la inteligencia artificial en el campo legal.

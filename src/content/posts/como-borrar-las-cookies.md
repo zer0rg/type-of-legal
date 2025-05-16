@@ -3,6 +3,7 @@ title: "Como borrar las cookies"
 date: 2022-03-24
 category: Protección de datos
 author: Type of Legal
+image: como-borrar-las-cookies.webp
 ---
 
 Las cookies pueden ser de gran utilidad mejorar la navegación en los diferentes sitios web. Permiten realizar seguimiento de qué artículos incluyes en el carrito de compra de una tienda online, recordarte el usuario y contraseña para facilitar los inicios de sesión u ofrecer funcionalidades adicionales como información sobre el tiempo que hace en tu localización. No obstante, y debido al gran volumen de información que pueden contener, también pueden suponer un riesgo para la privacidad de los usuarios. Por eso, es importante saber cómo deshabilitar y borrar las cookies.

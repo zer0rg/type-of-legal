@@ -3,6 +3,7 @@ title: "Publicidad de productos sanitarios"
 date: 2022-01-05
 category: Derecho digital
 author: Type of Legal
+image: publicidad-de-productos-sanitarios.webp
 ---
 
 El término "producto sanitario" abarca muchos y muy variados tipos de dispositivos, materiales y aparatos destinados a fines médicos.  

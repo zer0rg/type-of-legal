@@ -3,6 +3,7 @@ title: "Abogados startup"
 date: 2021-10-25
 category: Derecho digital|Derecho mercantil
 author: Type of Legal
+image: abogados-startup.webp
 ---
 
 Cuando decides poner en marcha un negocio tecnológico o startup son muchos los aspectos legales a tener en cuenta. Desde el minuto cero tendrás que tomar decisiones jurídicas que te acompañarán en todas las fases de desarrollo del negocio. Contar con abogados especializados que te acompañen en el proceso es fundamental para crear un proyecto que cuente con todas las garantías legales.

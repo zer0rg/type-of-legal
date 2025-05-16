@@ -3,6 +3,7 @@ title: "Reclamaciones ante la AEPD"
 date: 2022-03-15
 category: Protección de datos
 author: Type of Legal
+image: reclamaciones-ante-la-aepd.webp
 ---
 
 Es posible interponer **reclamaciones ante la Agencia Española de Protección de Datos (AEPD)** por parte de cualquier interesado que tenga **pruebas o indicios de la existencia de un incumplimiento o infracción en materia de protección de datos por parte de cualquier responsable del tratamiento.**

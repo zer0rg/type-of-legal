@@ -3,6 +3,7 @@ title: "Sorteo en redes sociales y web"
 date: 2022-04-12
 category: Derecho digital
 author: Type of Legal
+image: sorteo-en-redes-sociales-y-web.webp
 ---
 
 Realizar sorteos en redes sociales y páginas web se ha convertido en una interesante herramienta de marketing a través de la cual las empresas puedan dar a conocer sus productos y llegar a nuevos clientes. En el presente post te contamos todo lo que necesitas saber para llevar a cabo sorteos de manera legal en internet.

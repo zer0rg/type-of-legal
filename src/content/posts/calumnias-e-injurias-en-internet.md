@@ -3,6 +3,7 @@ title: "Calumnias e injurias en internet"
 date: 2021-09-07
 category: Derecho digital
 author: Type of Legal
+image: calumnias-e-injurias-en-internet.webp
 ---
 
 Internet es una fantástica herramienta que nos ha cambiado el mundo por completo, permitiéndonos compartir información de todo tipo y ofrecernos la posibilidad de comunicarnos a través de numerosas aplicaciones y redes sociales. Sin embargo, con su normalización como canal de comunicación han surgido diferentes aspectos negativos que poco a poco es preciso mejorar. En concreto, se ha comprobado como existe de forma generalizada una falsa creencia entre los usuarios (o esa es la sensación) de un sentimiento de anonimato que les permite sobrepasar cualquier límite en las comunicaciones que se realizan en la red, sin parar a pensar en las posibles consecuencias de las opiniones o acciones vertidas en la misma. En este artículo vamos a aclarar una de los delitos más recurrentes que se comenten en las redes: el delito de calumnias o injurias.  

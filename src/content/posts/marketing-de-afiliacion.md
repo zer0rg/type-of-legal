@@ -3,6 +3,7 @@ title: "¿Hay aspectos legales en el marketing de afiliación?"
 date: 2022-02-03
 category: Derecho digital
 author: Type of Legal
+image: marketing-de-afiliacion.webp
 ---
 
 ¿Qué es el marketing de afiliación?

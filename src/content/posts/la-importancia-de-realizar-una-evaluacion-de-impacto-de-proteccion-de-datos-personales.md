@@ -3,6 +3,7 @@ title: "La importancia de realizar una Evaluación de Impacto de Protección de 
 date: 2023-07-18
 category: Protección de datos
 author: Type of Legal
+image: la-importancia-de-realizar-una-evaluacion-de-impacto-de-proteccion-de-datos-personales.webp
 ---
 
 Los avances tecnológicos y la facilidad de compartir datos han abierto nuevas oportunidades, pero también han aumentado los riesgos asociados con la privacidad y la seguridad de la información personal. Ante este escenario, una de las herramientas más efectivas para garantizar la adecuada protección de los datos de las personas es la Evaluación de Impacto en la Protección de Datos Personales (EIPD). En este artículo, exploraremos qué es una EIPD, por qué es crucial implementarla y cómo puede beneficiar tanto a las organizaciones como a sus usuarios.

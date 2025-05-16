@@ -3,6 +3,7 @@ title: "Como crear una empresa en internet"
 date: 2021-09-15
 category: Derecho mercantil|Dominios y marcas
 author: Type of Legal
+image: como-crear-una-empresa-en-internet.webp
 ---
 
 A lo largo de los últimos años hemos sido testigos de un importante proceso de digitalización de empresas de muy diversos sectores.

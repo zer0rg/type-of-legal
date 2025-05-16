@@ -3,6 +3,7 @@ title: "Novedades en la normativa de blanqueo de capitales"
 date: 2021-10-11
 category: Derecho mercantil
 author: Type of Legal
+image: novedades-en-la-normativa-de-blanqueo-de-capitales.webp
 ---
 
 Con la Directiva 2015/849 se reguló la prevención de la utilización del sistema financiero para el blanqueo de capitales y la financiación del terrorismo, entrando en vigor en España a través del Real Decreto-Ley 11/2018, de 31 de agosto. Con este Real Decreto-Ley se modifica, entre otras cosas, la Ley 10/2010, de 28 de abril, de prevención de blanqueo de capitales y financiación del terrorismo incluyendo nuevos sujetos obligados y añadiendo nuevas obligaciones a los prestadores de servicios.

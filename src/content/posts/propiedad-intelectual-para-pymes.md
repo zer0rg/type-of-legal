@@ -3,6 +3,7 @@ title: "Propiedad Intelectual para PYMES"
 date: 2021-11-24
 category: Propiedad Intelectual
 author: Type of Legal
+image: propiedad-intelectual-para-pymes.webp
 ---
 
 La protección de la propiedad intelectual es fundamental para cualquier empresa y, especialmente, en aquellas que se encuentren en sus fases más iniciales de desarrollo.

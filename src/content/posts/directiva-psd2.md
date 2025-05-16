@@ -3,6 +3,7 @@ title: "Directiva PSD2"
 date: 2021-11-23
 category: Derecho digital
 author: Type of Legal
+image: directiva-psd2.webp
 ---
 
 ¿**Qué es la Directiva europea sobre servicios de pago PSD2?**

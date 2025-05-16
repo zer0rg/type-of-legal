@@ -3,6 +3,7 @@ title: "Acuerdo de confidencialidad"
 date: 2021-11-22
 category: Derecho digital
 author: Type of Legal
+image: acuerdo-de-confidencialidad.webp
 ---
 
 **¿Qué es un acuerdo de confidencialidad o NDA?**

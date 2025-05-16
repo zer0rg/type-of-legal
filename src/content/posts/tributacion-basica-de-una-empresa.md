@@ -3,6 +3,7 @@ title: "Tributación básica de una empresa"
 date: 2022-02-10
 category: Derecho mercantil
 author: Type of Legal
+image: tributacion-basica-de-una-empresa.webp
 ---
 
 **TRIBUTACIÓN BÁSICA DE UNA EMPRESA**

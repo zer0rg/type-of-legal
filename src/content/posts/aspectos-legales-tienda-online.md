@@ -3,6 +3,7 @@ title: "Aspectos legales tienda online"
 date: 2023-01-26
 category: Derecho digital|Dominios y marcas|Propiedad Intelectual|Protección de datos
 author: Type of Legal
+image: aspectos-legales-tienda-online.webp
 ---
 
 Los requisitos legales de una tienda online consisten en el cumplimiento de todas las obligaciones legales que las diferentes normativas aplicables les imponen. Para poder crear una tienda online con todas las garantías legales, es necesario que estos requisitos se tengan en cuenta con carácter previo a su creación. En el presente artículo profundizaremos en los pasos a seguir para cumplir los requisitos legales de tu tienda online.

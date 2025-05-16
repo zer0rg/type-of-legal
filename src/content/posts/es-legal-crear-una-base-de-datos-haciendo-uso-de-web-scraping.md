@@ -3,6 +3,7 @@ title: "¿Es legal crear una base de datos haciendo uso de web scraping?"
 date: 2022-10-26
 category: Derecho digital|Protección de datos
 author: Type of Legal
+image: es-legal-crear-una-base-de-datos-haciendo-uso-de-web-scraping.webp
 ---
 
 El **_Web Scraping_** o raspado web es una técnica empleada para la extracción automatizada de información de sitios webs mediante robots o bots conocidos como “arañas web”. A través de las técnicas de scraping, es posible recabar información muy diversa de sitios web como, por ejemplo, datos sobre productos de tiendas online, datos públicos de webs gubernamentales, anuncios para realizar marketing, directorios, etc.  El Scraping es completamente legal como técnica informática. No obstante, y como cualquier otra herramienta, puede colisionar con diferentes normativas dependiendo del uso que hagamos de ella.

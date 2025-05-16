@@ -14,6 +14,7 @@ const posts = defineCollection({
     date: z.date(),
     category: z.string(),
     author: z.string(),
+    image: z.string(),
   }),
 });
 

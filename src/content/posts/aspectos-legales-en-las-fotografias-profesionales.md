@@ -3,6 +3,7 @@ title: "Aspectos legales en las fotografías profesionales"
 date: 2023-03-28
 category: Derecho digital|Propiedad Intelectual
 author: Type of Legal
+image: aspectos-legales-en-las-fotografias-profesionales.webp
 ---
 
   ¿Cuáles son los aspectos legales a tener en cuenta en las fotografías profesionales? Hablemos sobre aquellas principales cuestiones que afectan a las fotografías, en concreto a los denominados derechos de autor.

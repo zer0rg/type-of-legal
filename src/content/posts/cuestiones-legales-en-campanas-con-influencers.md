@@ -3,6 +3,7 @@ title: "Cuestiones legales en campañas con influencers"
 date: 2021-09-27
 category: Derecho digital
 author: Type of Legal
+image: cuestiones-legales-en-campanas-con-influencers.webp
 ---
 
 Que la forma de hacer publicidad ha cambiado es un hecho. Las marcas se han sabido adaptar a un público cada vez más digital para hacerles llegar sus productos. Las campañas en grandes medios de comunicación están dejando paso a la transmisión de la publicidad a través de las redes sociales y, a día de hoy, las marcas confían más que nunca en los _influencers_ para llevar a cabo esta labor.

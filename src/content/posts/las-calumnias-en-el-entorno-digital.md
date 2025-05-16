@@ -3,6 +3,7 @@ title: "Las calumnias en el entorno digital"
 date: 2022-11-21
 category: Derecho digital
 author: Type of Legal
+image: las-calumnias-en-el-entorno-digital.webp
 ---
 
 ¿Qué debe hacer una persona cuando se considera víctima de calumnias en publicaciones de un medio digital? ¿es posible entablar acciones legales? En el presente artículo, analizaremos los pasos a seguir para determinar la existencia de calumnias en publicaciones de un medio digital y analizar las posibles acciones a entablar.

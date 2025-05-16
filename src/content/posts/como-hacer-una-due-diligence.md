@@ -3,6 +3,7 @@ title: "Cómo hacer una Due Diligence"
 date: 2021-09-28
 category: Derecho mercantil
 author: Type of Legal
+image: como-hacer-una-due-diligence.webp
 ---
 
 En el presente artículo vamos a desarrollar aquellos puntos más esenciales para entender la Due Diligence , la cual supone una herramienta esencial a la hora de realizar una operación de compraventa de sociedades.
