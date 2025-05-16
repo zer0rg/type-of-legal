@@ -175,7 +175,25 @@ dialog::backdrop {
             font-size: 20px;
             font-weight: bold;
             color: #2e3c2e;
+            position: relative;
+            padding-bottom: 8px;
         }
+
+        h3:before{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 3px;
+            background-color: #4d8b6c;
+            border-radius: 3px;
+            transition: width 0.3s ease;
+        }
+
+       
+
+      
 
         p {
             margin: 0;
@@ -218,6 +236,9 @@ dialog::backdrop {
             transform: scaleX(1);
         }
 
+        .service-card:hover h3:before{
+            width: 70px;
+        }
       
         
 
