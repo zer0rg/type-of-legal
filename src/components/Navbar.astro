@@ -12,7 +12,7 @@ import MenuIcon from './icons/MenuIcon.astro';
             <a href="/#services" class="navbar-button">SERVICIOS</a>
             <a href="/#about" class="navbar-button">NOSOTROS</a>
             <a href="/#contact" class="navbar-button">CONTACTO</a>
-            <a href="/blog" class="navbar-button">BLOG</a>
+            <a href="/blog" id="blog-button" class="navbar-button">BLOG</a>
 
 
             </div>
@@ -24,10 +24,17 @@ import MenuIcon from './icons/MenuIcon.astro';
         </div>
     </nav>
     <script is:inline>
-        document.addEventListener("DOMContentLoaded", () => {
+        document.addEventListener("astro:page-load", () => {
+            const path = window.location.pathname;
           const sections = document.querySelectorAll("section[id]");
           const navLinks = document.querySelectorAll("#navbar a[href^='/#']");
-    
+            
+            if (path === '/blog'){
+                const blogButton = document.getElementById("blog-button");
+                if (blogButton) {
+                    blogButton.classList.add("active");
+                }
+            }
           const observer = new IntersectionObserver(
             (entries) => {
               entries.forEach((entry) => {

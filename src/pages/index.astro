@@ -2,17 +2,10 @@
 import Navbar from '../components/Navbar.astro';
 import Banner from '../components/Banner.astro';
 import Layout from '../layouts/Layout.astro';
-import ServiceCard from '../components/ServiceCard.astro';
-import ShieldIcon from '../components/icons/ShieldIcon.astro';
-import WorldIcon from '../components/icons/WorldIcon.astro';
-import SettingAddIcon from '../components/icons/SettingAddIcon.astro';
-import BrainIcon from '../components/icons/BrainIcon.astro';
-import CopyrightIcon from '../components/icons/CopyrightIcon.astro';
-import TrophyIcon from '../components/icons/TrophyIcon.astro';
-import ScriptIcon from '../components/icons/ScriptIcon.astro';
-import PuzzleIcon from '../components/icons/PuzzleIcon.astro';
+
 import TeamBanner from '../components/TeamBanner.astro';
 import ContactForm from '../components/ContactForm.astro';
+import Services from '../components/Services.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -22,42 +15,7 @@ import ContactForm from '../components/ContactForm.astro';
 	<Navbar/>
 	<main>
 		<Banner />
-		<section id="services" class="services"> 
-			<div class="services-section-wrapper">
-				<div class="services-section-header">
-					<h2>Nuestros Servicios Legales</h2>
-					<p>Ofrecemos servicios legales integrales a negocios tecnológios e innovadores</p>
-				</div>
-				<div class="services-section-cards">
-					<ServiceCard title='Protección de Datos' description='Asesoría y cumplimiento normativo en materia de protección de datos personales.'>
-						<ShieldIcon slot="icon" />
-					</ServiceCard>
-					<ServiceCard title='Derecho digital y Web' description='Redactamos todos los textos legales que necesita tu sitio web, ecommerce o app para cumplir con la normativa y operar con seguridad jurídica desde el primer clic.'>
-						<WorldIcon slot="icon" />
-					</ServiceCard>
-					<ServiceCard title='Contratación Tecnológica' description='Te ayudamos a crear, revisar y negociar contratos tecnológicos y comerciales clave para tu negocio, protegiendo tus intereses sin perder agilidad.'>
-						<SettingAddIcon slot="icon" />
-					</ServiceCard>
-					<ServiceCard title='Inteligencia Artificial y Automatización' description='Alineamos tus sistemas de IA y automatización con la normativa vigente, evaluamos riesgos y diseñamos mecanismos de control y transparencia.'>
-						<BrainIcon slot="icon" />
-					</ServiceCard>
-					<ServiceCard title='Propiedad Intelectual' description='Protege y gestiona legalmente tus creaciones, software, marcas o contenidos digitales con contratos adecuados y asesoría frente a posibles infracciones.'>
-						<CopyrightIcon slot="icon" />
-					</ServiceCard>
-					<ServiceCard title='Sorteos, Concursos y Publicidad Digital' description='Legalizamos sorteos, promociones y campañas publicitarias online, asegurando el cumplimiento normativo en redes, ecommerce y colaboraciones con influencers.'>
-						<TrophyIcon slot="icon" />
-					</ServiceCard>
-					<ServiceCard title='Derecho Mercantil y Startups' description='Acompañamos a startups y empresas en todo su ciclo: constitución, pactos de socios, inversiones, estructuras jurídicas y gobierno corporativo.'>
-						<ScriptIcon slot="icon" />
-					</ServiceCard>
-					<ServiceCard title='Externalización del Departamento Legal' description='Nos convertimos en tu departamento legal externalizado, brindando asesoría continua y personalizada en todas las áreas clave de tu negocio.'>
-						<PuzzleIcon slot="icon" />
-					</ServiceCard>
-				</div>
-			
-	
-			</div>
-		</section>
+		<Services />
 		<section id="about" class="about">
 
 			<div class="about-wrapper">
@@ -134,46 +92,6 @@ h2{
 				font-weight: bold;
 				color: #2e3c2e;
 			}
-#services {
-	display: flex;
-	justify-content: center;
-	padding: 50px 20px;
-	min-height: 100dvh;
-	scroll-margin-top: 90px; /* ajusta según la altura de tu header */
-
-	
-	.services-section-wrapper{
-		width: 100%;
-		max-width: 1300px;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		gap: 50px;
-
-		.services-section-header{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			gap: 20px;
-			
-			p{
-				margin: 0;
-				font-size: 20px;
-				color: #5a6b5a;
-				font-weight: bold;
-			}
-		}
-
-		.services-section-cards{
-			display: flex;
-			justify-content: center;
-			gap: 20px;
-			flex-wrap: wrap;
-		}
-
-	
-	}
-}
 
 #about{
 	background: #f0f5f0de;

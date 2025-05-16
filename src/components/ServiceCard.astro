@@ -1,26 +1,135 @@
 ---
+import { render } from 'astro:content';
 import ShieldIcon from './icons/ShieldIcon.astro';
+import CloseIcon from './icons/CloseIcon.astro';
 
 interface Props {
-    title: string;
-    description: string;
+    service: any;
 }
 
-const { title, description } = Astro.props;
+const id = Astro.props.service.slug
+const { title, description, icon} = Astro.props.service.data;
+const { Content } = await render(Astro.props.service)
+
+
+
 
 ---
-<div class="service-card">
+<div id={`serviceCard-${id}`} class="service-card" data-id={id}>
     <div class="icon-wrapper">
-        <slot name="icon" />
+      <slot name="icon" />
     </div>
     <h3>{title}</h3>
     <p>{description}</p>
-    <a href="#" class="service-card-button">Saber más</a>
+    <a class="service-card-button">Saber más</a>
     <div class="underline"></div>
-</div>
+  </div>
+  
+  <dialog id={`myModal-${id}`} class="dialog">
+    <div class="dialog-header">
+        <span>{title}</span>
 
+        <button data-close-id={id}><CloseIcon/></button>
+    </div>
+    <Content />
+  </dialog>
+
+  <script>
+  document.addEventListener('astro:page-load', () => {
+  const cards = document.querySelectorAll<HTMLElement>('.service-card');
+  const closeButtons = document.querySelectorAll<HTMLButtonElement>('button[data-close-id]');
+
+  cards.forEach(card => {
+    const id = card.dataset.id;
+    if (!id) return;
+
+    card.addEventListener('click', () => {
+      const dialog = document.getElementById(`myModal-${id}`) as HTMLDialogElement | null;
+      if (dialog && 'showModal' in dialog) {
+        dialog.showModal();
+        requestAnimationFrame(() => {
+          dialog.classList.add('show');
+        });
+      }
+    });
+  });
+
+  closeButtons.forEach(btn => {
+    const id = btn.dataset.closeId;
+    if (!id) return;
+
+    btn.addEventListener('click', () => {
+      const dialog = document.getElementById(`myModal-${id}`) as HTMLDialogElement | null;
+      if (dialog) {
+        dialog.classList.remove('show');
+        dialog.addEventListener('transitionend', () => dialog.close(), { once: true });
+      }
+    });
+  });
+});
+
+  </script>
 
 <style>
+
+dialog {
+  width: 90%;
+  max-width: 1000px;
+  height: 80%;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  pointer-events: none; /* Evita clics cuando está oculto */
+
+  .dialog-header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e8f0eb;
+    span{
+        font-size: 20px;
+        font-weight: bold;
+        color: #2e3c2e;
+    }
+
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        outline: none;
+        color: #4d8b6c;
+        background-color: #e8f0eb;
+        height: 30px;
+        width: 30px;
+        border-radius: 99999px;
+        transition: all 0.3s ease-in-out;
+    }
+    button:hover{
+        background-color: #d5e3db;
+
+    }
+  }
+}
+
+/* Activación controlada solo por clase */
+dialog.show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.7); /* Negro con 70% de opacidad */
+}
 
     @keyframes appear {
         from {
@@ -120,7 +229,7 @@ const { title, description } = Astro.props;
 
         
     }
-       
+
 
     
 </style>

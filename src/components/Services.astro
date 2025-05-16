@@ -1,0 +1,94 @@
+---
+import ServiceCard from '../components/ServiceCard.astro';
+import ShieldIcon from '../components/icons/ShieldIcon.astro';
+import WorldIcon from '../components/icons/WorldIcon.astro';
+import SettingAddIcon from '../components/icons/SettingAddIcon.astro';
+import BrainIcon from '../components/icons/BrainIcon.astro';
+import CopyrightIcon from '../components/icons/CopyrightIcon.astro';
+import TrophyIcon from '../components/icons/TrophyIcon.astro';
+import ScriptIcon from '../components/icons/ScriptIcon.astro';
+import PuzzleIcon from '../components/icons/PuzzleIcon.astro';
+import { getCollection } from 'astro:content';
+
+const iconos: Record<string, any> = {
+  ShieldIcon,
+  WorldIcon,
+  SettingAddIcon,
+  BrainIcon,
+  CopyrightIcon,
+  TrophyIcon,
+  ScriptIcon,           
+  PuzzleIcon,
+
+};
+
+const services = await getCollection('services');
+console.log(services)
+---
+
+<section id="services" class="services"> 
+    <div class="services-section-wrapper">
+        <div class="services-section-header">
+            <h2>Nuestros Servicios Legales</h2>
+            <p>Ofrecemos servicios legales integrales a negocios tecnológios e innovadores</p>
+        </div>
+        <div class="services-section-cards">
+            {
+                services.map((service) => {
+                  const Icon = iconos[service.data.icon];
+                  return (
+                    <ServiceCard service={service}>
+                      {Icon && <Icon slot="icon" />}
+                    </ServiceCard>
+                  );
+                })
+              }
+        </div>
+    
+
+    </div>
+</section>
+
+<style>
+
+#services {
+	display: flex;
+	justify-content: center;
+	padding: 50px 20px;
+	min-height: 100dvh;
+	scroll-margin-top: 90px; /* ajusta según la altura de tu header */
+
+	
+	.services-section-wrapper{
+		width: 100%;
+		max-width: 1300px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 50px;
+
+		.services-section-header{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 20px;
+			
+			p{
+				margin: 0;
+				font-size: 20px;
+				color: #5a6b5a;
+				font-weight: bold;
+			}
+		}
+
+		.services-section-cards{
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			flex-wrap: wrap;
+		}
+
+	
+	}
+}
+</style>
