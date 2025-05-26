@@ -15,24 +15,32 @@ const { Content } = await render(Astro.props.service)
 
 
 ---
-<div id={`serviceCard-${id}`} class="service-card" data-id={id} aria-label={`${title} - ${description}`}>
-    <div class="icon-wrapper">
-      <slot name="icon" />
-    </div>
-    <h3>{title}</h3>
-    <p>{description}</p>
-    <span class="service-card-button">Saber más</a>
-    <div class="underline"></div>
+<div 
+  id={`serviceCard-${id}`} 
+  class="service-card" 
+  data-id={id} 
+  role="region" 
+  aria-labelledby={`serviceTitle-${id}`} 
+  aria-describedby={`serviceDesc-${id}`}
+>
+  <div class="icon-wrapper" aria-hidden="true">
+    <slot name="icon" />
   </div>
-  
-  <dialog id={`myModal-${id}`} class="dialog">
-    <div class="dialog-header">
-        <span>{title}</span>
+  <h3 id={`serviceTitle-${id}`}>{title}</h3>
+  <p id={`serviceDesc-${id}`}>{description}</p>
+  <button class="service-card-button" aria-haspopup="dialog" aria-controls={`myModal-${id}`}>
+    Saber más
+  </button>
+  <div class="underline"></div>
+</div>
 
-        <button data-close-id={id}><CloseIcon/></button>
-    </div>
-    <Content />
-  </dialog>
+<dialog id={`myModal-${id}`} class="dialog" aria-modal="true" role="dialog" aria-labelledby={`serviceTitle-${id}`}>
+  <div class="dialog-header">
+    <span id={`dialogTitle-${id}`}>{title}</span>
+    <button data-close-id={id} aria-label="Cerrar diálogo"><CloseIcon/></button>
+  </div>
+  <Content />
+</dialog>
 
   <script>
   document.addEventListener('astro:page-load', () => {

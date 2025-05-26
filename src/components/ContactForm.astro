@@ -1,49 +1,182 @@
-
-
-<form id="contactForm" class="contact-form">
+<form id="contactForm" class="contact-form" novalidate>
     <div class="form-row">
-        <div class="form-col">
-            <div class="form-group">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-            </div>
+      <div class="form-col">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required aria-required="true" />
         </div>
-        <div class="form-col">
-            <div class="form-group">
-                <label for="apellido">Apellido</label>
-                <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
-            </div>
+      </div>
+      <div class="form-col">
+        <div class="form-group">
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required aria-required="true" />
         </div>
+      </div>
     </div>
-    
+  
     <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="tu@email.com" required aria-required="true" />
     </div>
-    
+  
     <div class="form-group">
-        <label for="telefono">Teléfono (opcional)</label>
-        <input type="tel" id="telefono" name="telefono" placeholder="+34 XXX XXX XXX">
+      <label for="telefono">Teléfono (opcional)</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="+34 XXX XXX XXX" />
     </div>
-    
+  
     <div class="form-group">
-        <label for="asunto">Asunto</label>
-        <input type="text" id="asunto" name="asunto" placeholder="¿En qué podemos ayudarte?" required>
+      <label for="asunto">Asunto</label>
+      <input type="text" id="asunto" name="asunto" placeholder="¿En qué podemos ayudarte?" required aria-required="true" />
     </div>
-    
+  
     <div class="form-group">
-        <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" name="mensaje" placeholder="Describe tu consulta en detalle..." required></textarea>
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" placeholder="Describe tu consulta en detalle..." required aria-required="true"></textarea>
     </div>
-    
-    <p>Al pulsar en “enviar” aceptas nuestra Política de Privacidad (i) para tratar tus datos con la finalidad de tramitar las consultas que puedas plantearnos.</p>
-    <div class="form-group">
-        <button type="submit" id="submitButton">Enviar mensaje</button>
+  
+    <div class="form-group" id="privacyNotice">
+      <input type="checkbox" id="privacyCheck" name="privacyCheck" required aria-required="true" />
+      <label for="privacyCheck">
+        He leído y acepto la <a href="/politica-de-privacidad" target="_blank" rel="noopener noreferrer">Política de Privacidad</a>
+      </label>
     </div>
-</form>
+  
 
+  
+    <div class="form-group">
+      <button type="submit" id="submitButton" aria-describedby="privacyNotice">Enviar mensaje</button>
+    </div>
+  </form>
+  
+  <script lang="js">
+    document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("contactForm");
+  const submitBtn = document.getElementById("submitButton");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault(); // prevenimos envío para validar primero
+
+    // Limpiamos mensajes previos
+    clearErrors();
+
+    let isValid = true;
+
+    // Validar campos requeridos manualmente para mostrar mensajes personalizados
+    const requiredFields = [
+      "nombre",
+      "apellido",
+      "email",
+      "asunto",
+      "mensaje",
+      "privacyCheck",
+    ];
+
+    requiredFields.forEach((id) => {
+      const field = form.elements[id];
+      if (!field.checkValidity()) {
+        isValid = false;
+        showError(field, getErrorMessage(field));
+      }
+    });
+
+    // Email formato
+    const emailField = form.elements["email"];
+    if (emailField.value && !emailField.checkValidity()) {
+      isValid = false;
+      showError(emailField, "Por favor, introduce un correo electrónico válido.");
+    }
+
+    // Teléfono opcional, pero si hay valor, validar patrón simple
+    const telefonoField = form.elements["telefono"];
+    if (
+      telefonoField.value &&
+      !/^\+?\d{6,15}$/.test(telefonoField.value.replace(/\s+/g, ""))
+    ) {
+      isValid = false;
+      showError(
+        telefonoField,
+        "Por favor, introduce un número de teléfono válido (ejemplo: +34123456789)."
+      );
+    }
+
+    if (isValid) {
+      form.submit(); // enviamos si todo es válido
+    }
+  });
+
+  function showError(field, message) {
+    // Añadir aria-invalid para accesibilidad
+    field.setAttribute("aria-invalid", "true");
+
+    // Crear un mensaje de error
+    const error = document.createElement("div");
+    error.style.color = "red";
+    error.className = "error-message";
+    error.id = `${field.id}-error`;
+    error.textContent = message;
+
+    // Asociar el error con el input
+    field.setAttribute("aria-describedby", error.id);
+
+    // Insertar después del campo
+    if (field.nextElementSibling) {
+      field.parentNode.insertBefore(error, field.nextElementSibling);
+    } else {
+      field.parentNode.appendChild(error);
+    }
+  }
+
+  function clearErrors() {
+    const errors = form.querySelectorAll(".error-message");
+    errors.forEach((error) => error.remove());
+
+    const fields = form.querySelectorAll("[aria-invalid]");
+    fields.forEach((field) => {
+      field.removeAttribute("aria-invalid");
+      field.removeAttribute("aria-describedby");
+    });
+  }
+
+  function getErrorMessage(field) {
+    if (field.validity.valueMissing) {
+      return "Este campo es obligatorio.";
+    }
+    if (field.validity.typeMismatch) {
+      if (field.type === "email") {
+        return "Por favor, introduce un correo electrónico válido.";
+      }
+    }
+    if (field.validity.patternMismatch) {
+      return "El formato no es válido.";
+    }
+    return "Campo inválido.";
+  }
+});
+
+  </script>
 
 <style>
+    
+    #privacyNotice{
+        input{
+            width: fit-content;
+        }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    a{
+        color: #6bbd97;
+        text-decoration: none;
+    }
+    }
+    .error-message {
+  color: #d93025;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
     .contact-form{
         width: 100%;
         max-width: 800px;

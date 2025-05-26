@@ -2,33 +2,49 @@
 import LinkedInIcon from "./icons/LinkedInIcon.astro";
 ---
 
-<div class="team-banner">
-    <div class="team-member member-1">
-        <a href="https://www.linkedin.com/in/alejandrosllorens/" target="_blank">
-            <div class="linkedin-overlay">
-                <LinkedInIcon/>
-            </div>
-        </a>
-      
+<div class="team-banner" role="list">
+    <div class="team-member member-1" role="listitem" aria-label="Alejandro Sánchez Llorens">
+      <a href="https://www.linkedin.com/in/alejandrosllorens/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Alejandro Llorens">
+        <div class="linkedin-overlay" aria-hidden="true">
+          <LinkedInIcon/>
+        </div>
+        <span class="sr-only">Alejandro Llorens - Abogado especializado en nuevas tecnologías</span>
+      </a>
     </div>
-    <div class="team-member member-2">
-        <a href="https://www.linkedin.com/in/nerea-vali%C3%B1o-g%C3%B3mez/" target="_blank">
-            <div class="linkedin-overlay">
-                <LinkedInIcon/>
-            </div>
-        </a>
+  
+    <div class="team-member member-2" role="listitem" aria-label="Nerea Valiño Gómez">
+      <a href="https://www.linkedin.com/in/nerea-vali%C3%B1o-g%C3%B3mez/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Nerea Valiño Gómez">
+        <div class="linkedin-overlay" aria-hidden="true">
+          <LinkedInIcon/>
+        </div>
+        <span class="sr-only">Nerea Valiño Gómez - Abogada especialista en derecho digital</span>
+      </a>
     </div>
-    <div class="team-member member-3">
-        <a href="https://www.linkedin.com/in/luis-seoane-g%C3%B3mez-a4650140/" target="_blank">
-            <div class="linkedin-overlay">
-                <LinkedInIcon/>
-            </div>
-        </a>
+  
+    <div class="team-member member-3" role="listitem" aria-label="Luis Seoane Gómez">
+      <a href="https://www.linkedin.com/in/luis-seoane-g%C3%B3mez-a4650140/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Luis Seoane Gómez">
+        <div class="linkedin-overlay" aria-hidden="true">
+          <LinkedInIcon/>
+        </div>
+        <span class="sr-only">Luis Seoane Gómez - Abogado experto en propiedad intelectual</span>
+      </a>
     </div>
-</div>
-
+  </div>
+  
 
 <style>
+    .sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
     .team-banner{
         display: flex;
         width: 100%;

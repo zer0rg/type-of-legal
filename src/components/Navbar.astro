@@ -5,101 +5,111 @@ import MenuIcon from './icons/MenuIcon.astro';
 ---
 
 <header>
-    <nav id="navbar">
-        <div class="navbar-left-section">
-
-            <img src="/branding/type_color.png" alt="Type Of Legal Logo" srcset="">
-            <div class="navbar-buttons">
-                <a href="/#banner" class="navbar-button">INICIO</a>
-            <a href="/#services" class="navbar-button">SERVICIOS</a>
-            <a href="/#about" class="navbar-button">NOSOTROS</a>
-            <a href="/#contact" class="navbar-button">CONTACTO</a>
-            <a href="/blog" id="blog-button" class="navbar-button">BLOG</a>
-
-
-            </div>
+    <nav id="navbar" role="navigation" aria-label="Menú principal de navegación">
+      <div class="navbar-left-section">
+        <img 
+          src="/branding/type_color.png" 
+          alt="Logo de Type Of Legal, despacho de abogados especializados en derecho digital" 
+          loading="lazy" 
+          decoding="async"
+        />
+        <div class="navbar-buttons">
+          <a href="/#banner" class="navbar-button">INICIO</a>
+          <a href="/#services" class="navbar-button">SERVICIOS</a>
+          <a href="/#about" class="navbar-button">NOSOTROS</a>
+          <a href="/#contact" class="navbar-button">CONTACTO</a>
+          <a href="/blog" id="blog-button" class="navbar-button">BLOG</a>
         </div>
-        <div class="navbar-right-section">
-            <button class="mail-button"><MailIcon/>info@typeoflegal.com</button>
-            <button id="mobileMenuButton" class="menu-button"><MenuIcon/></button>
-
+      </div>
+      <div class="navbar-right-section">
+        <button class="mail-button" aria-label="Enviar correo a info@typeoflegal.com">
+          <MailIcon /> info@typeoflegal.com
+        </button>
+        <button id="mobileMenuButton" class="menu-button" aria-expanded="false" aria-controls="mobileNavbar" aria-label="Abrir menú móvil">
+          <MenuIcon />
+        </button>
+      </div>
+    </nav>
+  
+    <nav id="mobileNavbar" class="mobile-navbar" role="navigation" aria-label="Menú móvil">
+      <div class="mobile-navbar-wrapper">
+        <img
+          src="https://typeoflegal.com/wp-content/uploads/2023/06/TypeofLegalAbogados.webp"
+          alt="Logo de Type Of Legal, despacho de abogados especializados en derecho digital"
+          loading="lazy"
+          decoding="async"
+        />
+        <div class="navbar-buttons">
+          <a href="/#banner" class="navbar-button">INICIO</a>
+          <a href="/#services" class="navbar-button">SERVICIOS</a>
+          <a href="/#about" class="navbar-button">NOSOTROS</a>
+          <a href="/#contact" class="navbar-button">CONTACTO</a>
+          <a href="/blog" id="blog-button-mobile" class="navbar-button">BLOG</a>
         </div>
+      </div>
     </nav>
-    <nav id="mobileNavbar" class="mobile-navbar">
-        <div class="mobile-navbar-wrapper">
-            <img src="https://typeoflegal.com/wp-content/uploads/2023/06/TypeofLegalAbogados.webp" alt="Type Of Legal Logo" srcset="">
-            <div class="navbar-buttons">
-                <a id="mobileNavbarLink" href="/#banner" class="navbar-button">INICIO</a>
-            <a id="mobileNavbarLink" href="/#services" class="navbar-button">SERVICIOS</a>
-            <a id="mobileNavbarLink" href="/#about" class="navbar-button">NOSOTROS</a>
-            <a id="mobileNavbarLink" href="/#contact" class="navbar-button">CONTACTO</a>
-            <a id="mobileNavbarLink" href="/blog" id="blog-button" class="navbar-button">BLOG</a>
-
-
-            </div>
-    </nav>
+  
     <script is:inline>
-        document.addEventListener("astro:page-load", () => {
-            const mobileNavbar = document.getElementById("mobileNavbar");
-            const mobileMenuButton = document.getElementById("mobileMenuButton");
-            const mobileNavbarLink = document.querySelectorAll("#mobileNavbarLink");
-            const path = window.location.pathname;
-          const sections = document.querySelectorAll("section[id]");
-          const navLinks = document.querySelectorAll("#navbar a[href^='/#']");
-
-
-          mobileMenuButton.addEventListener("click", () => {
-            mobileNavbar.classList.toggle("active");
-          });
-
- 
-    
-    document.querySelector('.mobile-navbar-wrapper').addEventListener("click", function(e) {
-        if (e.target === this || e.target === this.querySelector('::before')) {
-            document.body.classList.remove("menu-open");
+      document.addEventListener("astro:page-load", () => {
+        const mobileNavbar = document.getElementById("mobileNavbar");
+        const mobileMenuButton = document.getElementById("mobileMenuButton");
+        const mobileNavbarLinks = mobileNavbar.querySelectorAll("a.navbar-button");
+        const path = window.location.pathname;
+        const sections = document.querySelectorAll("section[id]");
+        const navLinks = document.querySelectorAll("#navbar a[href^='/#']");
+  
+        mobileMenuButton.addEventListener("click", () => {
+          const expanded = mobileMenuButton.getAttribute("aria-expanded") === "true";
+          mobileMenuButton.setAttribute("aria-expanded", !expanded);
+          mobileNavbar.classList.toggle("active");
+        });
+  
+        document.querySelector('.mobile-navbar-wrapper').addEventListener("click", function (e) {
+          if (e.target === this) {
+            mobileMenuButton.setAttribute("aria-expanded", false);
             mobileNavbar.classList.remove("active");
+          }
+        });
+  
+        mobileNavbarLinks.forEach((link) => {
+          link.addEventListener("click", () => {
+            mobileMenuButton.setAttribute("aria-expanded", false);
+            mobileNavbar.classList.remove("active");
+          });
+        });
+  
+        if (path.includes("blog")) {
+          const blogButton = document.getElementById("blog-button");
+          if (blogButton) blogButton.classList.add("active");
+          const blogButtonMobile = document.getElementById("blog-button-mobile");
+          if (blogButtonMobile) blogButtonMobile.classList.add("active");
         }
-    });
-    
-    mobileNavbarLink.forEach((link) => {  
-        link.addEventListener("click", () => {
-            document.body.classList.remove("menu-open");
-        });
-    });
-    
-            
-            if (path.includes('blog')){
-                const blogButton = document.getElementById("blog-button");
-                if (blogButton) {
-                    blogButton.classList.add("active");
-                }
-            }
-          const observer = new IntersectionObserver(
-            (entries) => {
-              entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                  const id = entry.target.id;
-                  navLinks.forEach((link) => {
-                    link.classList.toggle("active", link.getAttribute("href") === `/#${id}`);
-                  });
-
-                  mobileNavbarLink.forEach((link) => {
-                    link.classList.toggle("active", link.getAttribute("href") === `/#${id}`);
-                  });
-                }
-              });
-            },
-            {
-              rootMargin: "0px 0px -60% 0px",
-              threshold: 0.25,
-            }
-          );
-    
-          sections.forEach((section) => observer.observe(section));
-        });
-      </script>
-</header>
-
+  
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const id = entry.target.id;
+                navLinks.forEach((link) => {
+                  link.classList.toggle("active", link.getAttribute("href") === `/#${id}`);
+                });
+                mobileNavbarLinks.forEach((link) => {
+                  link.classList.toggle("active", link.getAttribute("href") === `/#${id}`);
+                });
+              }
+            });
+          },
+          {
+            rootMargin: "0px 0px -60% 0px",
+            threshold: 0.25,
+          }
+        );
+  
+        sections.forEach((section) => observer.observe(section));
+      });
+    </script>
+  </header>
+  
 
 <style>
 /* Base Styles with Premium Enhancements */
@@ -143,9 +153,9 @@ header:hover::before {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100dvw;
     max-width: 1300px;
-    padding: 15px 30px;
+    padding: 15px 0px;
 }
 
 /* Enhanced Desktop Navbar - Left Section */
@@ -593,7 +603,8 @@ body.menu-open::after {
 .mobile-navbar-wrapper .navbar-button {
     animation: slideIn 0.5s forwards;
     opacity: 0;
-}
+}npm install @typescript-eslint/parser --save-dev
+
 
 .mobile-navbar-wrapper .navbar-button:nth-child(1) { animation-delay: 0.1s; }
 .mobile-navbar-wrapper .navbar-button:nth-child(2) { animation-delay: 0.2s; }

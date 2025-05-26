@@ -4,4 +4,4 @@ description: Te ayudamos a crear, revisar y negociar contratos tecnológicos y c
 icon: SettingAddIcon
 ---
 
-Hola buenas tardes
+TEXTO QUE APARECE EN EL POPUP AL CLICAR EL SERVICIO

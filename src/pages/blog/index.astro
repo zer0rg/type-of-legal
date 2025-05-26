@@ -1,10 +1,10 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import NavbarBlog from '../../components/Navbar.astro';
 import { getCollection } from 'astro:content';
 import BlogPost from '../../components/BlogPost.astro';
 import FeaturedBlog from '../../components/FeaturedBlog.astro';
 import Footer from '../../components/Footer.astro';
+import Navbar from '../../components/Navbar.astro';
 
 // Obtener todos los posts y ordenarlos por fecha
 const posts = await getCollection('posts');
@@ -24,7 +24,7 @@ const remainingPosts = posts.filter(post =>
 ---
 
 <Layout title="Blog - Type of Legal">
-    <NavbarBlog/>
+    <Navbar/>
     <main>
         <section id="featuredBlog" class="featuredBlog">
             {

@@ -25,28 +25,27 @@ const iconos: Record<string, any> = {
 const services = await getCollection('services');
 ---
 
-<section id="services" class="services"> 
-    <div class="services-section-wrapper">
-        <div class="services-section-header">
-            <h2>Nuestros Servicios Legales</h2>
-            <p>Ofrecemos servicios legales integrales a negocios tecnológios e innovadores</p>
-        </div>
-        <div class="services-section-cards">
-            {
-                services.map((service) => {
-                  const Icon = iconos[service.data.icon];
-                  return (
-                    <ServiceCard service={service}>
-                      {Icon && <Icon slot="icon" />}
-                    </ServiceCard>
-                  );
-                })
-              }
-        </div>
-    
-
-    </div>
-</section>
+<section id="services" class="services" role="region" aria-labelledby="services-heading">
+	<div class="services-section-wrapper">
+	  <div class="services-section-header">
+		<h2 id="services-heading">Nuestros Servicios Legales</h2>
+		<p>Ofrecemos servicios legales integrales a negocios tecnológicos e innovadores.</p>
+	  </div>
+	  <div class="services-section-cards">
+		{
+		  services.map((service) => {
+			const Icon = iconos[service.data.icon];
+			return (
+			  <ServiceCard service={service} aria-describedby={`desc-${service.data.title}`}>
+				{Icon && <Icon slot="icon" />}
+			  </ServiceCard>
+			);
+		  })
+		}
+	  </div>
+	</div>
+  </section>
+  
 
 <style>
 
