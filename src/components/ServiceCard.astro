@@ -80,6 +80,21 @@ const { Content } = await render(Astro.props.service)
 
 <style>
 
+  .service-card-button{
+    text-align: start;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+    color: #4d8b6c;
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
 dialog {
   width: 90%;
   max-width: 1000px;
@@ -157,7 +172,8 @@ dialog::backdrop {
         position: relative;
         width: calc(33.33% - 20px);
         border: 1px solid #e8f0eb;
-        padding: 20px;;
+        padding: 20px;
+        padding-bottom: 50px;
         box-sizing: border-box;
         border-radius: 10px;
         transition: all 0.3s ease-in-out;
